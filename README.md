@@ -9,14 +9,13 @@ The project follows a modular architecture so that the frontend can later commun
 ## Project Structure
 
 ```text
-paresh-portfolio/
+refrag-ai/
 │
 ├── public/
 │   └── ...
 │
 ├── src/
-│   ├── assets/
-│   │   └── ...
+│   ├── ...
 │   │
 │   ├── components/
 │   │   ├── Sidebar.jsx
