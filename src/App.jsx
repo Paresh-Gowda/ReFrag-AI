@@ -18,7 +18,6 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-
       <div className="app-shell">
 
         <Sidebar />
@@ -59,7 +58,6 @@ function App() {
         </main>
 
       </div>
-
     </BrowserRouter>
   );
 }

@@ -1,185 +1,328 @@
+import { useEffect, useState } from "react";
 import {
-  Activity,
-  Database,
-  FileCheck2,
+  BarChart3,
+  ShieldCheck,
   AlertTriangle,
-  BrainCircuit,
-  TrendingUp,
+  Layers3,
+  Activity,
 } from "lucide-react";
 
+import { getAnalytics } from "../services/api";
+import "../styles/analytics.css";
+
+
 function Analytics() {
+  const [analytics, setAnalytics] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+
+  useEffect(() => {
+    async function loadAnalytics() {
+      try {
+        const data = await getAnalytics();
+        setAnalytics(data);
+      } catch (error) {
+        console.error(
+          "Failed to load analytics:",
+          error
+        );
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadAnalytics();
+  }, []);
+
+
+  if (loading) {
+    return (
+      <div className="analytics-page">
+        <div className="analytics-loading">
+          Loading forensic analytics...
+        </div>
+      </div>
+    );
+  }
+
+
+  const integrity =
+    analytics?.integrity || {};
+
+  const priority =
+    analytics?.priority || {};
+
+
+  const valid =
+    integrity.valid || 0;
+
+  const partial =
+    integrity.partial || 0;
+
+  const corrupted =
+    integrity.corrupted || 0;
+
+  const high =
+    priority.HIGH || 0;
+
+  const medium =
+    priority.MEDIUM || 0;
+
+  const low =
+    priority.LOW || 0;
+
+  const totalIntegrity =
+    valid +
+    partial +
+    corrupted;
+
+
   return (
-    <section className="analytics-page">
+    <div className="analytics-page">
 
       {/* HEADER */}
 
       <div className="analytics-header">
+
         <div>
-          <p className="eyebrow">RECOVERY INTELLIGENCE</p>
+          <p className="eyebrow">
+            FORENSIC ANALYTICS
+          </p>
 
           <h1>
-            Analyze the recovery.
-            <br />
-            <span>See the bigger picture.</span>
+            Recovery Analytics
           </h1>
 
           <p>
-            Monitor fragment discovery, reconstruction results,
-            integrity levels, and AI-assisted relationship analysis.
+            Statistical overview of reconstruction,
+            integrity and evidence prioritization.
           </p>
         </div>
 
-        <div className="analytics-period">
-          <Activity size={15} />
-          Current Scan
+
+        <div className="analytics-status">
+          <Activity size={17} />
+          LIVE PIPELINE DATA
         </div>
-      </div>
-
-
-      {/* KPI CARDS */}
-
-      <div className="analytics-kpis">
-
-        <Kpi
-          icon={Database}
-          label="Fragments Processed"
-          value="12,482"
-          change="+18.4%"
-        />
-
-        <Kpi
-          icon={FileCheck2}
-          label="Files Reconstructed"
-          value="1,146"
-          change="+12.7%"
-        />
-
-        <Kpi
-          icon={BrainCircuit}
-          label="AI Relationships"
-          value="8,742"
-          change="+24.2%"
-        />
-
-        <Kpi
-          icon={AlertTriangle}
-          label="Corrupted Regions"
-          value="421"
-          change="-8.6%"
-        />
 
       </div>
 
 
-      {/* MAIN ANALYTICS */}
+      {/* OVERVIEW */}
 
       <div className="analytics-grid">
 
-        {/* RECOVERY DISTRIBUTION */}
+        <div className="analytics-card">
 
-        <div className="analytics-card recovery-chart">
-
-          <div className="analytics-card-header">
-            <div>
-              <p className="eyebrow">RECOVERY STATUS</p>
-              <h2>Artifact distribution</h2>
-            </div>
-
-            <TrendingUp size={17} />
+          <div className="analytics-card-icon">
+            <Layers3 size={20} />
           </div>
 
+          <span>
+            Reconstruction Candidates
+          </span>
 
-          <div className="distribution">
+          <strong>
+            {totalIntegrity}
+          </strong>
 
-            <div className="distribution-ring">
-              <div>
-                <strong>86%</strong>
-                <span>Validated</span>
-              </div>
-            </div>
-
-
-            <div className="distribution-list">
-
-              <Distribution
-                label="Successfully Reconstructed"
-                value="1,146"
-                percentage="68%"
-                type="success"
-              />
-
-              <Distribution
-                label="Partial Recovery"
-                value="421"
-                percentage="24%"
-                type="partial"
-              />
-
-              <Distribution
-                label="Corrupted / Unrecoverable"
-                value="256"
-                percentage="8%"
-                type="danger"
-              />
-
-            </div>
-
-          </div>
+          <small>
+            Files analyzed
+          </small>
 
         </div>
 
-
-        {/* FILE TYPES */}
 
         <div className="analytics-card">
 
-          <div className="analytics-card-header">
+          <div className="analytics-card-icon">
+            <ShieldCheck size={20} />
+          </div>
 
-            <div>
-              <p className="eyebrow">FILE CLASSIFICATION</p>
-              <h2>Detected file types</h2>
+          <span>
+            Valid Evidence
+          </span>
+
+          <strong>
+            {valid}
+          </strong>
+
+          <small>
+            Passed integrity checks
+          </small>
+
+        </div>
+
+
+        <div className="analytics-card">
+
+          <div className="analytics-card-icon">
+            <AlertTriangle size={20} />
+          </div>
+
+          <span>
+            Corrupted
+          </span>
+
+          <strong>
+            {corrupted}
+          </strong>
+
+          <small>
+            Require further analysis
+          </small>
+
+        </div>
+
+
+        <div className="analytics-card">
+
+          <div className="analytics-card-icon">
+            <BarChart3 size={20} />
+          </div>
+
+          <span>
+            High Priority
+          </span>
+
+          <strong>
+            {high}
+          </strong>
+
+          <small>
+            Evidence candidates
+          </small>
+
+        </div>
+
+      </div>
+
+
+      {/* INTEGRITY */}
+
+      <div className="analytics-section">
+
+        <div className="analytics-section-title">
+
+          <div>
+            <p className="eyebrow">
+              INTEGRITY ANALYSIS
+            </p>
+
+            <h2>
+              Reconstruction Health
+            </h2>
+          </div>
+
+        </div>
+
+
+        <div className="chart-card">
+
+          <div className="bar-chart">
+
+            <div className="bar-item">
+
+              <div className="bar-value">
+                {valid}
+              </div>
+
+              <div className="bar-track">
+
+                <div
+                  className="bar valid"
+                  style={{
+                    height: `${
+                      totalIntegrity
+                        ? (valid / totalIntegrity) * 100
+                        : 0
+                    }%`,
+                  }}
+                />
+
+              </div>
+
+              <span>
+                VALID
+              </span>
+
+            </div>
+
+
+            <div className="bar-item">
+
+              <div className="bar-value">
+                {partial}
+              </div>
+
+              <div className="bar-track">
+
+                <div
+                  className="bar partial"
+                  style={{
+                    height: `${
+                      totalIntegrity
+                        ? (partial / totalIntegrity) * 100
+                        : 0
+                    }%`,
+                  }}
+                />
+
+              </div>
+
+              <span>
+                PARTIAL
+              </span>
+
+            </div>
+
+
+            <div className="bar-item">
+
+              <div className="bar-value">
+                {corrupted}
+              </div>
+
+              <div className="bar-track">
+
+                <div
+                  className="bar corrupted"
+                  style={{
+                    height: `${
+                      totalIntegrity
+                        ? (corrupted / totalIntegrity) * 100
+                        : 0
+                    }%`,
+                  }}
+                />
+
+              </div>
+
+              <span>
+                CORRUPTED
+              </span>
+
             </div>
 
           </div>
 
 
-          <div className="file-types">
+          <div className="integrity-summary">
 
-            <FileType
-              type="JPEG"
-              count="642"
-              percentage="42%"
-            />
+            <div>
+              <span>Valid</span>
+              <strong>{valid}</strong>
+            </div>
 
-            <FileType
-              type="PDF"
-              count="318"
-              percentage="21%"
-            />
+            <div>
+              <span>Partial</span>
+              <strong>{partial}</strong>
+            </div>
 
-            <FileType
-              type="PNG"
-              count="211"
-              percentage="14%"
-            />
-
-            <FileType
-              type="ZIP"
-              count="164"
-              percentage="11%"
-            />
-
-            <FileType
-              type="DOCX"
-              count="103"
-              percentage="7%"
-            />
-
-            <FileType
-              type="Other"
-              count="89"
-              percentage="5%"
-            />
+            <div>
+              <span>Corrupted</span>
+              <strong>{corrupted}</strong>
+            </div>
 
           </div>
 
@@ -188,228 +331,97 @@ function Analytics() {
       </div>
 
 
-      {/* AI ANALYSIS */}
+      {/* PRIORITY */}
 
-      <div className="analytics-card ai-insights">
+      <div className="analytics-section">
 
-        <div className="analytics-card-header">
+        <div className="analytics-section-title">
 
           <div>
-            <p className="eyebrow">AI RELATIONSHIP ENGINE</p>
-            <h2>Fragment relationship confidence</h2>
-          </div>
+            <p className="eyebrow">
+              AI PRIORITIZATION
+            </p>
 
-          <div className="ai-status">
-            <span />
-            Model Active
-          </div>
-
-        </div>
-
-
-        <div className="confidence-bars">
-
-          <Confidence
-            label="High confidence"
-            range="90–100%"
-            value="74%"
-          />
-
-          <Confidence
-            label="Medium confidence"
-            range="70–89%"
-            value="19%"
-          />
-
-          <Confidence
-            label="Low confidence"
-            range="<70%"
-            value="7%"
-          />
-
-        </div>
-
-      </div>
-
-
-      {/* PROCESSING PIPELINE */}
-
-      <div className="analytics-card pipeline-analytics">
-
-        <div className="analytics-card-header">
-
-          <div>
-            <p className="eyebrow">PROCESSING PIPELINE</p>
-            <h2>Current analysis throughput</h2>
+            <h2>
+              Evidence Distribution
+            </h2>
           </div>
 
         </div>
 
 
-        <div className="throughput">
+        <div className="priority-analytics">
 
-          <PipelineMetric
-            title="Scanned"
-            value="12,482"
-            width="100%"
-          />
+          <div className="priority-row">
 
-          <PipelineMetric
-            title="Classified"
-            value="9,842"
-            width="79%"
-          />
+            <div className="priority-label">
+              <span>HIGH</span>
+              <strong>{high}</strong>
+            </div>
 
-          <PipelineMetric
-            title="Matched"
-            value="8,742"
-            width="70%"
-          />
+            <div className="priority-track">
+              <div
+                className="priority-fill high"
+                style={{
+                  width: `${
+                    totalIntegrity
+                      ? (high / totalIntegrity) * 100
+                      : 0
+                  }%`,
+                }}
+              />
+            </div>
 
-          <PipelineMetric
-            title="Reconstructed"
-            value="1,823"
-            width="31%"
-          />
+          </div>
 
-          <PipelineMetric
-            title="Validated"
-            value="1,146"
-            width="18%"
-          />
+
+          <div className="priority-row">
+
+            <div className="priority-label">
+              <span>MEDIUM</span>
+              <strong>{medium}</strong>
+            </div>
+
+            <div className="priority-track">
+              <div
+                className="priority-fill medium"
+                style={{
+                  width: `${
+                    totalIntegrity
+                      ? (medium / totalIntegrity) * 100
+                      : 0
+                  }%`,
+                }}
+              />
+            </div>
+
+          </div>
+
+
+          <div className="priority-row">
+
+            <div className="priority-label">
+              <span>LOW</span>
+              <strong>{low}</strong>
+            </div>
+
+            <div className="priority-track">
+              <div
+                className="priority-fill low"
+                style={{
+                  width: `${
+                    totalIntegrity
+                      ? (low / totalIntegrity) * 100
+                      : 0
+                  }%`,
+                }}
+              />
+            </div>
+
+          </div>
 
         </div>
 
-      </div>
-
-    </section>
-  );
-}
-
-
-/* KPI */
-
-function Kpi({
-  icon: Icon,
-  label,
-  value,
-  change,
-}) {
-  return (
-    <div className="analytics-kpi">
-
-      <div className="kpi-icon">
-        <Icon size={18} />
-      </div>
-
-      <span>{label}</span>
-
-      <strong>{value}</strong>
-
-      <small>{change} from previous scan</small>
-
-    </div>
-  );
-}
-
-
-/* DISTRIBUTION */
-
-function Distribution({
-  label,
-  value,
-  percentage,
-  type,
-}) {
-  return (
-    <div className="distribution-item">
-
-      <div className={`distribution-dot ${type}`} />
-
-      <div>
-        <strong>{label}</strong>
-        <span>{value} artifacts</span>
-      </div>
-
-      <b>{percentage}</b>
-
-    </div>
-  );
-}
-
-
-/* FILE TYPE */
-
-function FileType({
-  type,
-  count,
-  percentage,
-}) {
-  return (
-    <div className="file-type">
-
-      <div className="file-type-top">
-        <strong>{type}</strong>
-        <span>{count}</span>
-      </div>
-
-      <div className="file-type-bar">
-        <div style={{ width: percentage }} />
-      </div>
-
-      <small>{percentage} of detected files</small>
-
-    </div>
-  );
-}
-
-
-/* CONFIDENCE */
-
-function Confidence({
-  label,
-  range,
-  value,
-}) {
-  return (
-    <div className="confidence-row">
-
-      <div className="confidence-info">
-        <strong>{label}</strong>
-        <span>{range}</span>
-      </div>
-
-      <div className="confidence-track">
-        <div
-          className="confidence-fill"
-          style={{ width: value }}
-        />
-      </div>
-
-      <b>{value}</b>
-
-    </div>
-  );
-}
-
-
-/* PIPELINE */
-
-function PipelineMetric({
-  title,
-  value,
-  width,
-}) {
-  return (
-    <div className="throughput-item">
-
-      <div className="throughput-header">
-        <span>{title}</span>
-        <strong>{value}</strong>
-      </div>
-
-      <div className="throughput-track">
-        <div style={{ width }} />
       </div>
 
     </div>

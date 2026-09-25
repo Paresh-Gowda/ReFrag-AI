@@ -1,0 +1,137 @@
+.fragments-page {
+  padding: 32px;
+  min-height: 100vh;
+}
+
+.fragments-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.fragments-header h1 {
+  margin: 6px 0 10px;
+  font-size: 32px;
+}
+
+.fragments-header p {
+  margin: 0;
+  opacity: 0.6;
+}
+
+.fragment-count {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.fragment-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 420px;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.fragment-search input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: inherit;
+}
+
+.fragments-table-wrapper {
+  overflow-x: auto;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+
+.fragments-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+}
+
+.fragments-table th {
+  padding: 15px 18px;
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  opacity: 0.45;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.fragments-table td {
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 13px;
+}
+
+.fragments-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.fragment-id {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.fragment-id svg {
+  opacity: 0.5;
+}
+
+.file-type {
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.source-name {
+  opacity: 0.65;
+}
+
+.entropy {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+.entropy svg {
+  opacity: 0.5;
+}
+
+.fragments-loading,
+.no-fragments {
+  padding: 60px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+@media (max-width: 800px) {
+  .fragments-page {
+    padding: 20px;
+  }
+
+  .fragments-header {
+    flex-direction: column;
+  }
+
+  .fragment-search {
+    width: auto;
+  }
+}
