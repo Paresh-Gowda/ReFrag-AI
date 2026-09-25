@@ -1,0 +1,285 @@
+{
+  "success": true,
+  "fragment_count": 64,
+  "grid_size": 8,
+  "fragment_size": 96,
+  "direction_convention": {
+    "horizontal": "LEFT",
+    "vertical": "UP"
+  },
+  "grid": [
+    [
+      {
+        "fragment": "F026",
+        "rotation": 0
+      },
+      {
+        "fragment": "F011",
+        "rotation": 180
+      },
+      {
+        "fragment": "F044",
+        "rotation": 180
+      },
+      {
+        "fragment": "F045",
+        "rotation": 180
+      },
+      {
+        "fragment": "F054",
+        "rotation": 0
+      },
+      {
+        "fragment": "F053",
+        "rotation": 0
+      },
+      {
+        "fragment": "F020",
+        "rotation": 180
+      },
+      {
+        "fragment": "F027",
+        "rotation": 0
+      }
+    ],
+    [
+      {
+        "fragment": "F040",
+        "rotation": 180
+      },
+      {
+        "fragment": "F048",
+        "rotation": 180
+      },
+      {
+        "fragment": "F063",
+        "rotation": 0
+      },
+      {
+        "fragment": "F062",
+        "rotation": 0
+      },
+      {
+        "fragment": "F061",
+        "rotation": 0
+      },
+      {
+        "fragment": "F060",
+        "rotation": 0
+      },
+      {
+        "fragment": "F058",
+        "rotation": 0
+      },
+      {
+        "fragment": "F059",
+        "rotation": 0
+      }
+    ],
+    [
+      {
+        "fragment": "F005",
+        "rotation": 180
+      },
+      {
+        "fragment": "F006",
+        "rotation": 180
+      },
+      {
+        "fragment": "F009",
+        "rotation": 0
+      },
+      {
+        "fragment": "F010",
+        "rotation": 0
+      },
+      {
+        "fragment": "F055",
+        "rotation": 90
+      },
+      {
+        "fragment": "F035",
+        "rotation": 180
+      },
+      {
+        "fragment": "F036",
+        "rotation": 180
+      },
+      {
+        "fragment": "F013",
+        "rotation": 90
+      }
+    ],
+    [
+      {
+        "fragment": "F043",
+        "rotation": 180
+      },
+      {
+        "fragment": "F012",
+        "rotation": 0
+      },
+      {
+        "fragment": "F028",
+        "rotation": 180
+      },
+      {
+        "fragment": "F029",
+        "rotation": 180
+      },
+      {
+        "fragment": "F030",
+        "rotation": 180
+      },
+      {
+        "fragment": "F031",
+        "rotation": 180
+      },
+      {
+        "fragment": "F003",
+        "rotation": 180
+      },
+      {
+        "fragment": "F002",
+        "rotation": 180
+      }
+    ],
+    [
+      {
+        "fragment": "F051",
+        "rotation": 180
+      },
+      {
+        "fragment": "F052",
+        "rotation": 180
+      },
+      {
+        "fragment": "F050",
+        "rotation": 0
+      },
+      {
+        "fragment": "F042",
+        "rotation": 270
+      },
+      {
+        "fragment": "F039",
+        "rotation": 90
+      },
+      {
+        "fragment": "F017",
+        "rotation": 270
+      },
+      {
+        "fragment": "F025",
+        "rotation": 270
+      },
+      {
+        "fragment": "F033",
+        "rotation": 270
+      }
+    ],
+    [
+      {
+        "fragment": "F046",
+        "rotation": 270
+      },
+      {
+        "fragment": "F038",
+        "rotation": 270
+      },
+      {
+        "fragment": "F037",
+        "rotation": 90
+      },
+      {
+        "fragment": "F014",
+        "rotation": 0
+      },
+      {
+        "fragment": "F004",
+        "rotation": 270
+      },
+      {
+        "fragment": "F007",
+        "rotation": 90
+      },
+      {
+        "fragment": "F032",
+        "rotation": 180
+      },
+      {
+        "fragment": "F008",
+        "rotation": 270
+      }
+    ],
+    [
+      {
+        "fragment": "F019",
+        "rotation": 90
+      },
+      {
+        "fragment": "F023",
+        "rotation": 180
+      },
+      {
+        "fragment": "F016",
+        "rotation": 90
+      },
+      {
+        "fragment": "F024",
+        "rotation": 270
+      },
+      {
+        "fragment": "F034",
+        "rotation": 90
+      },
+      {
+        "fragment": "F041",
+        "rotation": 0
+      },
+      {
+        "fragment": "F049",
+        "rotation": 180
+      },
+      {
+        "fragment": "F022",
+        "rotation": 270
+      }
+    ],
+    [
+      {
+        "fragment": "F056",
+        "rotation": 90
+      },
+      {
+        "fragment": "F018",
+        "rotation": 0
+      },
+      {
+        "fragment": "F001",
+        "rotation": 0
+      },
+      {
+        "fragment": "F047",
+        "rotation": 270
+      },
+      {
+        "fragment": "F064",
+        "rotation": 90
+      },
+      {
+        "fragment": "F057",
+        "rotation": 180
+      },
+      {
+        "fragment": "F015",
+        "rotation": 0
+      },
+      {
+        "fragment": "F021",
+        "rotation": 0
+      }
+    ]
+  ],
+  "output": "D:\\Project-Files\\Web Development Projects\\ReFrag AI\\refrag-ai\\ml\\image_recovery\\test\\output\\reconstructed_global.png"
+}
