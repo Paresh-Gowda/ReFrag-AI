@@ -1,0 +1,48 @@
+{
+  "model": "RandomForestClassifier",
+  "task": "fragment_relationship_classification",
+  "random_state": 42,
+  "train_pairs": 1853,
+  "test_pairs": 535,
+  "train_source_files": 93,
+  "test_source_files": 32,
+  "features": [
+    "index_distance",
+    "same_file_type",
+    "bfa_cosine_similarity",
+    "bfa_euclidean_distance",
+    "bfa_manhattan_distance",
+    "bfa_correlation",
+    "diff_entropy",
+    "diff_mean",
+    "diff_variance",
+    "diff_std",
+    "diff_printable_ratio",
+    "diff_null_ratio",
+    "diff_high_byte_ratio",
+    "diff_control_ratio",
+    "diff_max_consecutive",
+    "seam_byte_difference",
+    "seam_avg_difference_4",
+    "seam_avg_difference_16",
+    "seam_identical",
+    "seam_both_null",
+    "seam_both_printable"
+  ],
+  "metrics": {
+    "accuracy": 0.9962616822429906,
+    "precision": 0.9976905311778291,
+    "recall": 0.9976905311778291,
+    "f1": 0.9976905311778291
+  },
+  "confusion_matrix": [
+    [
+      101,
+      1
+    ],
+    [
+      1,
+      432
+    ]
+  ]
+}

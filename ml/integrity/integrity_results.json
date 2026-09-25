@@ -1,0 +1,1034 @@
+[
+  {
+    "file": "reconstructed_001.bin",
+    "file_type": "pdf",
+    "size": 88662,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_002.bin",
+    "file_type": "png",
+    "size": 29493,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_003.bin",
+    "file_type": "unknown",
+    "size": 42836,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_004.bin",
+    "file_type": "unknown",
+    "size": 32266,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_005.bin",
+    "file_type": "unknown",
+    "size": 28717,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_006.bin",
+    "file_type": "unknown",
+    "size": 73618,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_007.bin",
+    "file_type": "pdf",
+    "size": 51646,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_008.bin",
+    "file_type": "png",
+    "size": 54117,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_009.bin",
+    "file_type": "pdf",
+    "size": 89320,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_010.bin",
+    "file_type": "unknown",
+    "size": 78780,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_011.bin",
+    "file_type": "unknown",
+    "size": 131343,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_012.bin",
+    "file_type": "unknown",
+    "size": 72030,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_013.bin",
+    "file_type": "unknown",
+    "size": 32731,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_014.bin",
+    "file_type": "pdf",
+    "size": 32596,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_015.bin",
+    "file_type": "unknown",
+    "size": 55662,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_016.bin",
+    "file_type": "pdf",
+    "size": 46487,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_017.bin",
+    "file_type": "pdf",
+    "size": 102400,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PDF EOF marker missing"
+  },
+  {
+    "file": "reconstructed_018.bin",
+    "file_type": "unknown",
+    "size": 67964,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_019.bin",
+    "file_type": "pdf",
+    "size": 112365,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_020.bin",
+    "file_type": "pdf",
+    "size": 79985,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_021.bin",
+    "file_type": "png",
+    "size": 47058,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_022.bin",
+    "file_type": "pdf",
+    "size": 122605,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_023.bin",
+    "file_type": "zip",
+    "size": 56472,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_024.bin",
+    "file_type": "unknown",
+    "size": 45677,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_025.bin",
+    "file_type": "unknown",
+    "size": 7210,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_026.bin",
+    "file_type": "pdf",
+    "size": 31496,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_027.bin",
+    "file_type": "zip",
+    "size": 21532,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_028.bin",
+    "file_type": "unknown",
+    "size": 62248,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_029.bin",
+    "file_type": "pdf",
+    "size": 143334,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_030.bin",
+    "file_type": "pdf",
+    "size": 161801,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_031.bin",
+    "file_type": "unknown",
+    "size": 42521,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_032.bin",
+    "file_type": "unknown",
+    "size": 110574,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_033.bin",
+    "file_type": "jpeg",
+    "size": 15779,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_034.bin",
+    "file_type": "jpeg",
+    "size": 36357,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_035.bin",
+    "file_type": "unknown",
+    "size": 36953,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_036.bin",
+    "file_type": "png",
+    "size": 20026,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_037.bin",
+    "file_type": "zip",
+    "size": 30962,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_038.bin",
+    "file_type": "pdf",
+    "size": 8192,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PDF EOF marker missing"
+  },
+  {
+    "file": "reconstructed_039.bin",
+    "file_type": "jpeg",
+    "size": 29611,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_040.bin",
+    "file_type": "pdf",
+    "size": 49152,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PDF EOF marker missing"
+  },
+  {
+    "file": "reconstructed_041.bin",
+    "file_type": "unknown",
+    "size": 59747,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_042.bin",
+    "file_type": "png",
+    "size": 27531,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_043.bin",
+    "file_type": "jpeg",
+    "size": 20298,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_044.bin",
+    "file_type": "pdf",
+    "size": 86999,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_045.bin",
+    "file_type": "unknown",
+    "size": 46934,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_046.bin",
+    "file_type": "pdf",
+    "size": 138476,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_047.bin",
+    "file_type": "pdf",
+    "size": 45056,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PDF EOF marker missing"
+  },
+  {
+    "file": "reconstructed_048.bin",
+    "file_type": "png",
+    "size": 48725,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_049.bin",
+    "file_type": "pdf",
+    "size": 33906,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_050.bin",
+    "file_type": "unknown",
+    "size": 29610,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_051.bin",
+    "file_type": "png",
+    "size": 40960,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PNG IEND chunk missing"
+  },
+  {
+    "file": "reconstructed_052.bin",
+    "file_type": "png",
+    "size": 22419,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_053.bin",
+    "file_type": "pdf",
+    "size": 139264,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PDF EOF marker missing"
+  },
+  {
+    "file": "reconstructed_054.bin",
+    "file_type": "unknown",
+    "size": 72173,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_055.bin",
+    "file_type": "pdf",
+    "size": 139264,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PDF EOF marker missing"
+  },
+  {
+    "file": "reconstructed_056.bin",
+    "file_type": "pdf",
+    "size": 122734,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_057.bin",
+    "file_type": "png",
+    "size": 33438,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_058.bin",
+    "file_type": "unknown",
+    "size": 21394,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_059.bin",
+    "file_type": "pdf",
+    "size": 84735,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_060.bin",
+    "file_type": "zip",
+    "size": 27001,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_061.bin",
+    "file_type": "jpeg",
+    "size": 56813,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_062.bin",
+    "file_type": "zip",
+    "size": 74125,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_063.bin",
+    "file_type": "pdf",
+    "size": 138828,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PDF header and EOF marker"
+  },
+  {
+    "file": "reconstructed_064.bin",
+    "file_type": "jpeg",
+    "size": 29369,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_065.bin",
+    "file_type": "png",
+    "size": 29934,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_066.bin",
+    "file_type": "zip",
+    "size": 55777,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_067.bin",
+    "file_type": "png",
+    "size": 17091,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_068.bin",
+    "file_type": "jpeg",
+    "size": 16581,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_069.bin",
+    "file_type": "png",
+    "size": 23924,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_070.bin",
+    "file_type": "unknown",
+    "size": 17467,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_071.bin",
+    "file_type": "jpeg",
+    "size": 31738,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_072.bin",
+    "file_type": "jpeg",
+    "size": 36050,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_073.bin",
+    "file_type": "zip",
+    "size": 58209,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_074.bin",
+    "file_type": "unknown",
+    "size": 16175,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_075.bin",
+    "file_type": "zip",
+    "size": 40305,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_076.bin",
+    "file_type": "png",
+    "size": 22343,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_077.bin",
+    "file_type": "unknown",
+    "size": 35561,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_078.bin",
+    "file_type": "zip",
+    "size": 66232,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_079.bin",
+    "file_type": "jpeg",
+    "size": 39951,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_080.bin",
+    "file_type": "jpeg",
+    "size": 16384,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "JPEG end marker missing"
+  },
+  {
+    "file": "reconstructed_081.bin",
+    "file_type": "jpeg",
+    "size": 8192,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "JPEG end marker missing"
+  },
+  {
+    "file": "reconstructed_082.bin",
+    "file_type": "jpeg",
+    "size": 14107,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_083.bin",
+    "file_type": "png",
+    "size": 30390,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_084.bin",
+    "file_type": "pdf",
+    "size": 77824,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PDF EOF marker missing"
+  },
+  {
+    "file": "reconstructed_085.bin",
+    "file_type": "zip",
+    "size": 29405,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_086.bin",
+    "file_type": "unknown",
+    "size": 38133,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_087.bin",
+    "file_type": "png",
+    "size": 47706,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_088.bin",
+    "file_type": "zip",
+    "size": 27579,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_089.bin",
+    "file_type": "png",
+    "size": 54174,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_090.bin",
+    "file_type": "unknown",
+    "size": 27311,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_091.bin",
+    "file_type": "zip",
+    "size": 53073,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_092.bin",
+    "file_type": "jpeg",
+    "size": 58417,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_093.bin",
+    "file_type": "jpeg",
+    "size": 31093,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_094.bin",
+    "file_type": "pdf",
+    "size": 86016,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "PDF EOF marker missing"
+  },
+  {
+    "file": "reconstructed_095.bin",
+    "file_type": "zip",
+    "size": 53428,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_096.bin",
+    "file_type": "zip",
+    "size": 37637,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_097.bin",
+    "file_type": "zip",
+    "size": 51583,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_098.bin",
+    "file_type": "png",
+    "size": 47652,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_099.bin",
+    "file_type": "unknown",
+    "size": 62173,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_100.bin",
+    "file_type": "zip",
+    "size": 32680,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_101.bin",
+    "file_type": "png",
+    "size": 41410,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_102.bin",
+    "file_type": "png",
+    "size": 26109,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_103.bin",
+    "file_type": "jpeg",
+    "size": 43758,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_104.bin",
+    "file_type": "png",
+    "size": 33597,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_105.bin",
+    "file_type": "jpeg",
+    "size": 54583,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_106.bin",
+    "file_type": "jpeg",
+    "size": 45266,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_107.bin",
+    "file_type": "zip",
+    "size": 32609,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_108.bin",
+    "file_type": "png",
+    "size": 21324,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_109.bin",
+    "file_type": "jpeg",
+    "size": 25663,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_110.bin",
+    "file_type": "png",
+    "size": 53649,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_111.bin",
+    "file_type": "jpeg",
+    "size": 29634,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_112.bin",
+    "file_type": "zip",
+    "size": 46001,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_113.bin",
+    "file_type": "jpeg",
+    "size": 32343,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_114.bin",
+    "file_type": "zip",
+    "size": 35574,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_115.bin",
+    "file_type": "zip",
+    "size": 21220,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_116.bin",
+    "file_type": "zip",
+    "size": 39576,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_117.bin",
+    "file_type": "zip",
+    "size": 20094,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_118.bin",
+    "file_type": "png",
+    "size": 18978,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_119.bin",
+    "file_type": "unknown",
+    "size": 113796,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_120.bin",
+    "file_type": "unknown",
+    "size": 35684,
+    "status": "CORRUPTED",
+    "integrity_score": 0.0,
+    "message": "Unknown file signature"
+  },
+  {
+    "file": "reconstructed_121.bin",
+    "file_type": "zip",
+    "size": 37980,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_122.bin",
+    "file_type": "jpeg",
+    "size": 49610,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_123.bin",
+    "file_type": "jpeg",
+    "size": 50406,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_124.bin",
+    "file_type": "zip",
+    "size": 8192,
+    "status": "PARTIAL",
+    "integrity_score": 0.5,
+    "message": "ZIP end/central-directory marker missing"
+  },
+  {
+    "file": "reconstructed_125.bin",
+    "file_type": "jpeg",
+    "size": 43185,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  },
+  {
+    "file": "reconstructed_126.bin",
+    "file_type": "png",
+    "size": 38206,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_127.bin",
+    "file_type": "zip",
+    "size": 54399,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "ZIP signature and archive structure detected"
+  },
+  {
+    "file": "reconstructed_128.bin",
+    "file_type": "png",
+    "size": 48916,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid PNG signature and IEND marker"
+  },
+  {
+    "file": "reconstructed_129.bin",
+    "file_type": "jpeg",
+    "size": 24352,
+    "status": "VALID",
+    "integrity_score": 1.0,
+    "message": "Valid JPEG header and end marker"
+  }
+]

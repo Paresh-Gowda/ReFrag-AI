@@ -1,0 +1,3548 @@
+[
+  {
+    "event_id": "EVT-1702-00000",
+    "timestamp": "2026-09-25T14:00:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.19.46",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00001",
+    "timestamp": "2026-09-25T14:01:03Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.23.6",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00002",
+    "timestamp": "2026-09-25T14:02:06Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.8.91",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00003",
+    "timestamp": "2026-09-25T14:03:09Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.7.246",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00004",
+    "timestamp": "2026-09-25T14:04:12Z",
+    "severity": "INFO",
+    "source_ip": "10.0.1.187",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00005",
+    "timestamp": "2026-09-25T14:05:15Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.45.173",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00006",
+    "timestamp": "2026-09-25T14:06:18Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.10.86",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00007",
+    "timestamp": "2026-09-25T14:07:21Z",
+    "severity": "INFO",
+    "source_ip": "10.0.1.162",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00008",
+    "timestamp": "2026-09-25T14:08:24Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.9.172",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00009",
+    "timestamp": "2026-09-25T14:09:27Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.26.131",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00010",
+    "timestamp": "2026-09-25T14:10:30Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.18.127",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00011",
+    "timestamp": "2026-09-25T14:11:33Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.18.51",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00012",
+    "timestamp": "2026-09-25T14:12:36Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.32.108",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00013",
+    "timestamp": "2026-09-25T14:13:39Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.12.190",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00014",
+    "timestamp": "2026-09-25T14:14:42Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.39.241",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00015",
+    "timestamp": "2026-09-25T14:15:45Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.18.239",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00016",
+    "timestamp": "2026-09-25T14:16:48Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.36.185",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00017",
+    "timestamp": "2026-09-25T14:17:51Z",
+    "severity": "INFO",
+    "source_ip": "10.0.21.216",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00018",
+    "timestamp": "2026-09-25T14:18:54Z",
+    "severity": "INFO",
+    "source_ip": "10.0.37.53",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00019",
+    "timestamp": "2026-09-25T14:19:57Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.33.89",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00020",
+    "timestamp": "2026-09-25T14:20:00Z",
+    "severity": "INFO",
+    "source_ip": "10.0.46.127",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00021",
+    "timestamp": "2026-09-25T14:21:03Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.48.156",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00022",
+    "timestamp": "2026-09-25T14:22:06Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.35.235",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00023",
+    "timestamp": "2026-09-25T14:23:09Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.14.85",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00024",
+    "timestamp": "2026-09-25T14:24:12Z",
+    "severity": "INFO",
+    "source_ip": "10.0.4.181",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00025",
+    "timestamp": "2026-09-25T14:25:15Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.50.75",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00026",
+    "timestamp": "2026-09-25T14:26:18Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.22.176",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00027",
+    "timestamp": "2026-09-25T14:27:21Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.8.247",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00028",
+    "timestamp": "2026-09-25T14:28:24Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.4.75",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00029",
+    "timestamp": "2026-09-25T14:29:27Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.14.144",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00030",
+    "timestamp": "2026-09-25T14:30:30Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.25.115",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00031",
+    "timestamp": "2026-09-25T14:31:33Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.17.106",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00032",
+    "timestamp": "2026-09-25T14:32:36Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.33.187",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00033",
+    "timestamp": "2026-09-25T14:33:39Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.50.238",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00034",
+    "timestamp": "2026-09-25T14:34:42Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.40.228",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00035",
+    "timestamp": "2026-09-25T14:35:45Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.22.93",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00036",
+    "timestamp": "2026-09-25T14:36:48Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.25.153",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00037",
+    "timestamp": "2026-09-25T14:37:51Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.44.76",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00038",
+    "timestamp": "2026-09-25T14:38:54Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.7.204",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00039",
+    "timestamp": "2026-09-25T14:39:57Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.8.171",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00040",
+    "timestamp": "2026-09-25T14:40:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.16.199",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00041",
+    "timestamp": "2026-09-25T14:41:03Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.42.9",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00042",
+    "timestamp": "2026-09-25T14:42:06Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.33.198",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00043",
+    "timestamp": "2026-09-25T14:43:09Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.29.228",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00044",
+    "timestamp": "2026-09-25T14:44:12Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.25.128",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00045",
+    "timestamp": "2026-09-25T14:45:15Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.31.232",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00046",
+    "timestamp": "2026-09-25T14:46:18Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.9.8",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00047",
+    "timestamp": "2026-09-25T14:47:21Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.7.243",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00048",
+    "timestamp": "2026-09-25T14:48:24Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.31.130",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00049",
+    "timestamp": "2026-09-25T14:49:27Z",
+    "severity": "INFO",
+    "source_ip": "10.0.41.62",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00050",
+    "timestamp": "2026-09-25T14:50:30Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.36.10",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00051",
+    "timestamp": "2026-09-25T14:51:33Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.20.147",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00052",
+    "timestamp": "2026-09-25T14:52:36Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.21.124",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00053",
+    "timestamp": "2026-09-25T14:53:39Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.44.249",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00054",
+    "timestamp": "2026-09-25T14:54:42Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.30.118",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00055",
+    "timestamp": "2026-09-25T14:55:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.43.130",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00056",
+    "timestamp": "2026-09-25T14:56:48Z",
+    "severity": "INFO",
+    "source_ip": "10.0.19.130",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00057",
+    "timestamp": "2026-09-25T14:57:51Z",
+    "severity": "INFO",
+    "source_ip": "10.0.22.165",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00058",
+    "timestamp": "2026-09-25T14:58:54Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.20.69",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00059",
+    "timestamp": "2026-09-25T14:59:57Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.26.29",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00060",
+    "timestamp": "2026-09-25T14:00:00Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.28.110",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00061",
+    "timestamp": "2026-09-25T14:01:03Z",
+    "severity": "INFO",
+    "source_ip": "10.0.24.3",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00062",
+    "timestamp": "2026-09-25T14:02:06Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.31.242",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00063",
+    "timestamp": "2026-09-25T14:03:09Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.37.36",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00064",
+    "timestamp": "2026-09-25T14:04:12Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.18.147",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00065",
+    "timestamp": "2026-09-25T14:05:15Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.33.79",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00066",
+    "timestamp": "2026-09-25T14:06:18Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.7.220",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00067",
+    "timestamp": "2026-09-25T14:07:21Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.40.140",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00068",
+    "timestamp": "2026-09-25T14:08:24Z",
+    "severity": "INFO",
+    "source_ip": "10.0.31.95",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00069",
+    "timestamp": "2026-09-25T14:09:27Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.24.179",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00070",
+    "timestamp": "2026-09-25T14:10:30Z",
+    "severity": "INFO",
+    "source_ip": "10.0.42.70",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00071",
+    "timestamp": "2026-09-25T14:11:33Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.7.204",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00072",
+    "timestamp": "2026-09-25T14:12:36Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.28.135",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00073",
+    "timestamp": "2026-09-25T14:13:39Z",
+    "severity": "INFO",
+    "source_ip": "10.0.6.80",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00074",
+    "timestamp": "2026-09-25T14:14:42Z",
+    "severity": "INFO",
+    "source_ip": "10.0.23.104",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00075",
+    "timestamp": "2026-09-25T14:15:45Z",
+    "severity": "INFO",
+    "source_ip": "10.0.19.245",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00076",
+    "timestamp": "2026-09-25T14:16:48Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.30.205",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00077",
+    "timestamp": "2026-09-25T14:17:51Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.48.177",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00078",
+    "timestamp": "2026-09-25T14:18:54Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.16.242",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00079",
+    "timestamp": "2026-09-25T14:19:57Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.11.240",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00080",
+    "timestamp": "2026-09-25T14:20:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.17.113",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00081",
+    "timestamp": "2026-09-25T14:21:03Z",
+    "severity": "INFO",
+    "source_ip": "10.0.14.64",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00082",
+    "timestamp": "2026-09-25T14:22:06Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.18.43",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00083",
+    "timestamp": "2026-09-25T14:23:09Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.22.220",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00084",
+    "timestamp": "2026-09-25T14:24:12Z",
+    "severity": "INFO",
+    "source_ip": "10.0.42.181",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00085",
+    "timestamp": "2026-09-25T14:25:15Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.12.113",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00086",
+    "timestamp": "2026-09-25T14:26:18Z",
+    "severity": "INFO",
+    "source_ip": "10.0.40.211",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00087",
+    "timestamp": "2026-09-25T14:27:21Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.45.93",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00088",
+    "timestamp": "2026-09-25T14:28:24Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.2.154",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00089",
+    "timestamp": "2026-09-25T14:29:27Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.50.3",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00090",
+    "timestamp": "2026-09-25T14:30:30Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.44.65",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00091",
+    "timestamp": "2026-09-25T14:31:33Z",
+    "severity": "INFO",
+    "source_ip": "10.0.12.6",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00092",
+    "timestamp": "2026-09-25T14:32:36Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.4.72",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00093",
+    "timestamp": "2026-09-25T14:33:39Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.20.59",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00094",
+    "timestamp": "2026-09-25T14:34:42Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.26.64",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00095",
+    "timestamp": "2026-09-25T14:35:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.2.176",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00096",
+    "timestamp": "2026-09-25T14:36:48Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.47.25",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00097",
+    "timestamp": "2026-09-25T14:37:51Z",
+    "severity": "INFO",
+    "source_ip": "10.0.15.115",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00098",
+    "timestamp": "2026-09-25T14:38:54Z",
+    "severity": "INFO",
+    "source_ip": "10.0.40.81",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00099",
+    "timestamp": "2026-09-25T14:39:57Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.1.168",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00100",
+    "timestamp": "2026-09-25T14:40:00Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.29.111",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00101",
+    "timestamp": "2026-09-25T14:41:03Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.45.146",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00102",
+    "timestamp": "2026-09-25T14:42:06Z",
+    "severity": "INFO",
+    "source_ip": "10.0.45.166",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00103",
+    "timestamp": "2026-09-25T14:43:09Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.9.207",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00104",
+    "timestamp": "2026-09-25T14:44:12Z",
+    "severity": "INFO",
+    "source_ip": "10.0.42.5",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00105",
+    "timestamp": "2026-09-25T14:45:15Z",
+    "severity": "INFO",
+    "source_ip": "10.0.5.20",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00106",
+    "timestamp": "2026-09-25T14:46:18Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.14.164",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00107",
+    "timestamp": "2026-09-25T14:47:21Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.29.173",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00108",
+    "timestamp": "2026-09-25T14:48:24Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.48.202",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00109",
+    "timestamp": "2026-09-25T14:49:27Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.43.36",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00110",
+    "timestamp": "2026-09-25T14:50:30Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.5.70",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00111",
+    "timestamp": "2026-09-25T14:51:33Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.9.60",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00112",
+    "timestamp": "2026-09-25T14:52:36Z",
+    "severity": "INFO",
+    "source_ip": "10.0.21.36",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00113",
+    "timestamp": "2026-09-25T14:53:39Z",
+    "severity": "INFO",
+    "source_ip": "10.0.34.49",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00114",
+    "timestamp": "2026-09-25T14:54:42Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.12.34",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00115",
+    "timestamp": "2026-09-25T14:55:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.39.197",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00116",
+    "timestamp": "2026-09-25T14:56:48Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.32.186",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00117",
+    "timestamp": "2026-09-25T14:57:51Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.40.6",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00118",
+    "timestamp": "2026-09-25T14:58:54Z",
+    "severity": "INFO",
+    "source_ip": "10.0.43.238",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00119",
+    "timestamp": "2026-09-25T14:59:57Z",
+    "severity": "INFO",
+    "source_ip": "10.0.3.26",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00120",
+    "timestamp": "2026-09-25T14:00:00Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.30.64",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00121",
+    "timestamp": "2026-09-25T14:01:03Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.10.245",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00122",
+    "timestamp": "2026-09-25T14:02:06Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.31.151",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00123",
+    "timestamp": "2026-09-25T14:03:09Z",
+    "severity": "INFO",
+    "source_ip": "10.0.24.110",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00124",
+    "timestamp": "2026-09-25T14:04:12Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.43.226",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00125",
+    "timestamp": "2026-09-25T14:05:15Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.36.235",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00126",
+    "timestamp": "2026-09-25T14:06:18Z",
+    "severity": "INFO",
+    "source_ip": "10.0.18.66",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00127",
+    "timestamp": "2026-09-25T14:07:21Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.41.95",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00128",
+    "timestamp": "2026-09-25T14:08:24Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.19.193",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00129",
+    "timestamp": "2026-09-25T14:09:27Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.7.150",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00130",
+    "timestamp": "2026-09-25T14:10:30Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.39.229",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00131",
+    "timestamp": "2026-09-25T14:11:33Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.3.41",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00132",
+    "timestamp": "2026-09-25T14:12:36Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.28.184",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00133",
+    "timestamp": "2026-09-25T14:13:39Z",
+    "severity": "INFO",
+    "source_ip": "10.0.19.184",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00134",
+    "timestamp": "2026-09-25T14:14:42Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.18.236",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00135",
+    "timestamp": "2026-09-25T14:15:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.33.227",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00136",
+    "timestamp": "2026-09-25T14:16:48Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.20.140",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00137",
+    "timestamp": "2026-09-25T14:17:51Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.28.122",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00138",
+    "timestamp": "2026-09-25T14:18:54Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.6.100",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00139",
+    "timestamp": "2026-09-25T14:19:57Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.12.130",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00140",
+    "timestamp": "2026-09-25T14:20:00Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.19.201",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00141",
+    "timestamp": "2026-09-25T14:21:03Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.5.10",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00142",
+    "timestamp": "2026-09-25T14:22:06Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.28.31",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00143",
+    "timestamp": "2026-09-25T14:23:09Z",
+    "severity": "INFO",
+    "source_ip": "10.0.44.67",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00144",
+    "timestamp": "2026-09-25T14:24:12Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.16.215",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00145",
+    "timestamp": "2026-09-25T14:25:15Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.19.187",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00146",
+    "timestamp": "2026-09-25T14:26:18Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.19.153",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00147",
+    "timestamp": "2026-09-25T14:27:21Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.18.152",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00148",
+    "timestamp": "2026-09-25T14:28:24Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.38.15",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00149",
+    "timestamp": "2026-09-25T14:29:27Z",
+    "severity": "INFO",
+    "source_ip": "10.0.8.164",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00150",
+    "timestamp": "2026-09-25T14:30:30Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.35.214",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00151",
+    "timestamp": "2026-09-25T14:31:33Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.12.100",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00152",
+    "timestamp": "2026-09-25T14:32:36Z",
+    "severity": "INFO",
+    "source_ip": "10.0.31.77",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00153",
+    "timestamp": "2026-09-25T14:33:39Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.9.235",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00154",
+    "timestamp": "2026-09-25T14:34:42Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.38.105",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00155",
+    "timestamp": "2026-09-25T14:35:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.20.9",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00156",
+    "timestamp": "2026-09-25T14:36:48Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.10.78",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00157",
+    "timestamp": "2026-09-25T14:37:51Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.38.149",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00158",
+    "timestamp": "2026-09-25T14:38:54Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.31.164",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00159",
+    "timestamp": "2026-09-25T14:39:57Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.39.118",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00160",
+    "timestamp": "2026-09-25T14:40:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.38.53",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00161",
+    "timestamp": "2026-09-25T14:41:03Z",
+    "severity": "INFO",
+    "source_ip": "10.0.16.104",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00162",
+    "timestamp": "2026-09-25T14:42:06Z",
+    "severity": "INFO",
+    "source_ip": "10.0.43.215",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00163",
+    "timestamp": "2026-09-25T14:43:09Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.15.106",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00164",
+    "timestamp": "2026-09-25T14:44:12Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.39.222",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00165",
+    "timestamp": "2026-09-25T14:45:15Z",
+    "severity": "INFO",
+    "source_ip": "10.0.45.167",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00166",
+    "timestamp": "2026-09-25T14:46:18Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.4.126",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00167",
+    "timestamp": "2026-09-25T14:47:21Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.43.222",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00168",
+    "timestamp": "2026-09-25T14:48:24Z",
+    "severity": "INFO",
+    "source_ip": "10.0.40.30",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00169",
+    "timestamp": "2026-09-25T14:49:27Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.49.239",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00170",
+    "timestamp": "2026-09-25T14:50:30Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.22.166",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00171",
+    "timestamp": "2026-09-25T14:51:33Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.1.69",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00172",
+    "timestamp": "2026-09-25T14:52:36Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.50.22",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00173",
+    "timestamp": "2026-09-25T14:53:39Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.43.54",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00174",
+    "timestamp": "2026-09-25T14:54:42Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.10.193",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00175",
+    "timestamp": "2026-09-25T14:55:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.1.124",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00176",
+    "timestamp": "2026-09-25T14:56:48Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.13.55",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00177",
+    "timestamp": "2026-09-25T14:57:51Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.1.226",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00178",
+    "timestamp": "2026-09-25T14:58:54Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.34.135",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00179",
+    "timestamp": "2026-09-25T14:59:57Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.34.133",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00180",
+    "timestamp": "2026-09-25T14:00:00Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.28.131",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00181",
+    "timestamp": "2026-09-25T14:01:03Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.6.9",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00182",
+    "timestamp": "2026-09-25T14:02:06Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.16.55",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00183",
+    "timestamp": "2026-09-25T14:03:09Z",
+    "severity": "INFO",
+    "source_ip": "10.0.36.201",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00184",
+    "timestamp": "2026-09-25T14:04:12Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.48.164",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00185",
+    "timestamp": "2026-09-25T14:05:15Z",
+    "severity": "INFO",
+    "source_ip": "10.0.8.33",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00186",
+    "timestamp": "2026-09-25T14:06:18Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.27.196",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00187",
+    "timestamp": "2026-09-25T14:07:21Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.11.156",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00188",
+    "timestamp": "2026-09-25T14:08:24Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.28.79",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00189",
+    "timestamp": "2026-09-25T14:09:27Z",
+    "severity": "INFO",
+    "source_ip": "10.0.17.26",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00190",
+    "timestamp": "2026-09-25T14:10:30Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.33.52",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00191",
+    "timestamp": "2026-09-25T14:11:33Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.43.73",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00192",
+    "timestamp": "2026-09-25T14:12:36Z",
+    "severity": "INFO",
+    "source_ip": "10.0.34.20",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00193",
+    "timestamp": "2026-09-25T14:13:39Z",
+    "severity": "INFO",
+    "source_ip": "10.0.45.218",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00194",
+    "timestamp": "2026-09-25T14:14:42Z",
+    "severity": "INFO",
+    "source_ip": "10.0.11.192",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00195",
+    "timestamp": "2026-09-25T14:15:45Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.9.15",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00196",
+    "timestamp": "2026-09-25T14:16:48Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.21.102",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00197",
+    "timestamp": "2026-09-25T14:17:51Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.7.16",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00198",
+    "timestamp": "2026-09-25T14:18:54Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.14.50",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00199",
+    "timestamp": "2026-09-25T14:19:57Z",
+    "severity": "INFO",
+    "source_ip": "10.0.4.182",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00200",
+    "timestamp": "2026-09-25T14:20:00Z",
+    "severity": "INFO",
+    "source_ip": "10.0.5.238",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00201",
+    "timestamp": "2026-09-25T14:21:03Z",
+    "severity": "INFO",
+    "source_ip": "10.0.49.40",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00202",
+    "timestamp": "2026-09-25T14:22:06Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.32.114",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00203",
+    "timestamp": "2026-09-25T14:23:09Z",
+    "severity": "INFO",
+    "source_ip": "10.0.38.234",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00204",
+    "timestamp": "2026-09-25T14:24:12Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.20.145",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00205",
+    "timestamp": "2026-09-25T14:25:15Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.17.166",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00206",
+    "timestamp": "2026-09-25T14:26:18Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.47.134",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00207",
+    "timestamp": "2026-09-25T14:27:21Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.32.171",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00208",
+    "timestamp": "2026-09-25T14:28:24Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.7.220",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00209",
+    "timestamp": "2026-09-25T14:29:27Z",
+    "severity": "INFO",
+    "source_ip": "10.0.47.208",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00210",
+    "timestamp": "2026-09-25T14:30:30Z",
+    "severity": "INFO",
+    "source_ip": "10.0.16.249",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00211",
+    "timestamp": "2026-09-25T14:31:33Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.43.91",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00212",
+    "timestamp": "2026-09-25T14:32:36Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.26.91",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00213",
+    "timestamp": "2026-09-25T14:33:39Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.44.217",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00214",
+    "timestamp": "2026-09-25T14:34:42Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.7.92",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00215",
+    "timestamp": "2026-09-25T14:35:45Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.34.213",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00216",
+    "timestamp": "2026-09-25T14:36:48Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.29.61",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00217",
+    "timestamp": "2026-09-25T14:37:51Z",
+    "severity": "INFO",
+    "source_ip": "10.0.39.9",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00218",
+    "timestamp": "2026-09-25T14:38:54Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.21.102",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00219",
+    "timestamp": "2026-09-25T14:39:57Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.26.155",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00220",
+    "timestamp": "2026-09-25T14:40:00Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.38.239",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00221",
+    "timestamp": "2026-09-25T14:41:03Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.39.193",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00222",
+    "timestamp": "2026-09-25T14:42:06Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.11.132",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00223",
+    "timestamp": "2026-09-25T14:43:09Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.4.204",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00224",
+    "timestamp": "2026-09-25T14:44:12Z",
+    "severity": "INFO",
+    "source_ip": "10.0.30.23",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00225",
+    "timestamp": "2026-09-25T14:45:15Z",
+    "severity": "INFO",
+    "source_ip": "10.0.15.244",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00226",
+    "timestamp": "2026-09-25T14:46:18Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.43.153",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00227",
+    "timestamp": "2026-09-25T14:47:21Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.30.88",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00228",
+    "timestamp": "2026-09-25T14:48:24Z",
+    "severity": "INFO",
+    "source_ip": "10.0.50.218",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00229",
+    "timestamp": "2026-09-25T14:49:27Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.44.51",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00230",
+    "timestamp": "2026-09-25T14:50:30Z",
+    "severity": "INFO",
+    "source_ip": "10.0.15.145",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00231",
+    "timestamp": "2026-09-25T14:51:33Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.48.183",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00232",
+    "timestamp": "2026-09-25T14:52:36Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.47.78",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00233",
+    "timestamp": "2026-09-25T14:53:39Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.22.92",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00234",
+    "timestamp": "2026-09-25T14:54:42Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.21.180",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00235",
+    "timestamp": "2026-09-25T14:55:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.22.62",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00236",
+    "timestamp": "2026-09-25T14:56:48Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.42.84",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00237",
+    "timestamp": "2026-09-25T14:57:51Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.16.121",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00238",
+    "timestamp": "2026-09-25T14:58:54Z",
+    "severity": "INFO",
+    "source_ip": "10.0.49.196",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00239",
+    "timestamp": "2026-09-25T14:59:57Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.50.189",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00240",
+    "timestamp": "2026-09-25T14:00:00Z",
+    "severity": "INFO",
+    "source_ip": "10.0.22.169",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00241",
+    "timestamp": "2026-09-25T14:01:03Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.32.186",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00242",
+    "timestamp": "2026-09-25T14:02:06Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.41.208",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00243",
+    "timestamp": "2026-09-25T14:03:09Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.30.146",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00244",
+    "timestamp": "2026-09-25T14:04:12Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.18.135",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00245",
+    "timestamp": "2026-09-25T14:05:15Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.25.225",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00246",
+    "timestamp": "2026-09-25T14:06:18Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.26.30",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00247",
+    "timestamp": "2026-09-25T14:07:21Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.41.124",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00248",
+    "timestamp": "2026-09-25T14:08:24Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.7.138",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00249",
+    "timestamp": "2026-09-25T14:09:27Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.31.61",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00250",
+    "timestamp": "2026-09-25T14:10:30Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.22.217",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00251",
+    "timestamp": "2026-09-25T14:11:33Z",
+    "severity": "INFO",
+    "source_ip": "10.0.13.148",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00252",
+    "timestamp": "2026-09-25T14:12:36Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.8.177",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00253",
+    "timestamp": "2026-09-25T14:13:39Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.31.229",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00254",
+    "timestamp": "2026-09-25T14:14:42Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.25.174",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00255",
+    "timestamp": "2026-09-25T14:15:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.29.68",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00256",
+    "timestamp": "2026-09-25T14:16:48Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.13.87",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00257",
+    "timestamp": "2026-09-25T14:17:51Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.7.56",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00258",
+    "timestamp": "2026-09-25T14:18:54Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.48.48",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00259",
+    "timestamp": "2026-09-25T14:19:57Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.29.146",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00260",
+    "timestamp": "2026-09-25T14:20:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.39.163",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00261",
+    "timestamp": "2026-09-25T14:21:03Z",
+    "severity": "INFO",
+    "source_ip": "10.0.21.48",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00262",
+    "timestamp": "2026-09-25T14:22:06Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.28.182",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00263",
+    "timestamp": "2026-09-25T14:23:09Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.10.13",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00264",
+    "timestamp": "2026-09-25T14:24:12Z",
+    "severity": "INFO",
+    "source_ip": "10.0.46.173",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00265",
+    "timestamp": "2026-09-25T14:25:15Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.48.203",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00266",
+    "timestamp": "2026-09-25T14:26:18Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.22.235",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00267",
+    "timestamp": "2026-09-25T14:27:21Z",
+    "severity": "INFO",
+    "source_ip": "10.0.33.56",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00268",
+    "timestamp": "2026-09-25T14:28:24Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.36.197",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00269",
+    "timestamp": "2026-09-25T14:29:27Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.29.151",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00270",
+    "timestamp": "2026-09-25T14:30:30Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.9.89",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00271",
+    "timestamp": "2026-09-25T14:31:33Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.29.127",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00272",
+    "timestamp": "2026-09-25T14:32:36Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.22.147",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00273",
+    "timestamp": "2026-09-25T14:33:39Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.16.158",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00274",
+    "timestamp": "2026-09-25T14:34:42Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.2.214",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00275",
+    "timestamp": "2026-09-25T14:35:45Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.20.76",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00276",
+    "timestamp": "2026-09-25T14:36:48Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.8.179",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00277",
+    "timestamp": "2026-09-25T14:37:51Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.15.90",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00278",
+    "timestamp": "2026-09-25T14:38:54Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.20.133",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00279",
+    "timestamp": "2026-09-25T14:39:57Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.2.167",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00280",
+    "timestamp": "2026-09-25T14:40:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.48.84",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00281",
+    "timestamp": "2026-09-25T14:41:03Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.45.57",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00282",
+    "timestamp": "2026-09-25T14:42:06Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.48.210",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00283",
+    "timestamp": "2026-09-25T14:43:09Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.45.206",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00284",
+    "timestamp": "2026-09-25T14:44:12Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.25.176",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00285",
+    "timestamp": "2026-09-25T14:45:15Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.25.194",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00286",
+    "timestamp": "2026-09-25T14:46:18Z",
+    "severity": "INFO",
+    "source_ip": "10.0.24.120",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00287",
+    "timestamp": "2026-09-25T14:47:21Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.4.217",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00288",
+    "timestamp": "2026-09-25T14:48:24Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.11.230",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00289",
+    "timestamp": "2026-09-25T14:49:27Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.24.3",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00290",
+    "timestamp": "2026-09-25T14:50:30Z",
+    "severity": "INFO",
+    "source_ip": "10.0.17.138",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00291",
+    "timestamp": "2026-09-25T14:51:33Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.4.80",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00292",
+    "timestamp": "2026-09-25T14:52:36Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.43.51",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00293",
+    "timestamp": "2026-09-25T14:53:39Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.7.177",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00294",
+    "timestamp": "2026-09-25T14:54:42Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.24.94",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00295",
+    "timestamp": "2026-09-25T14:55:45Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.18.116",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00296",
+    "timestamp": "2026-09-25T14:56:48Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.26.248",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00297",
+    "timestamp": "2026-09-25T14:57:51Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.14.55",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00298",
+    "timestamp": "2026-09-25T14:58:54Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.3.129",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00299",
+    "timestamp": "2026-09-25T14:59:57Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.46.206",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00300",
+    "timestamp": "2026-09-25T14:00:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.45.172",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00301",
+    "timestamp": "2026-09-25T14:01:03Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.44.164",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00302",
+    "timestamp": "2026-09-25T14:02:06Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.2.167",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00303",
+    "timestamp": "2026-09-25T14:03:09Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.37.203",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00304",
+    "timestamp": "2026-09-25T14:04:12Z",
+    "severity": "INFO",
+    "source_ip": "10.0.29.137",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00305",
+    "timestamp": "2026-09-25T14:05:15Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.15.241",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00306",
+    "timestamp": "2026-09-25T14:06:18Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.49.244",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00307",
+    "timestamp": "2026-09-25T14:07:21Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.32.6",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00308",
+    "timestamp": "2026-09-25T14:08:24Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.30.154",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00309",
+    "timestamp": "2026-09-25T14:09:27Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.7.119",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00310",
+    "timestamp": "2026-09-25T14:10:30Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.47.66",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00311",
+    "timestamp": "2026-09-25T14:11:33Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.4.205",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00312",
+    "timestamp": "2026-09-25T14:12:36Z",
+    "severity": "INFO",
+    "source_ip": "10.0.7.131",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00313",
+    "timestamp": "2026-09-25T14:13:39Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.15.151",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00314",
+    "timestamp": "2026-09-25T14:14:42Z",
+    "severity": "INFO",
+    "source_ip": "10.0.46.52",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00315",
+    "timestamp": "2026-09-25T14:15:45Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.6.56",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00316",
+    "timestamp": "2026-09-25T14:16:48Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.2.66",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00317",
+    "timestamp": "2026-09-25T14:17:51Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.2.190",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00318",
+    "timestamp": "2026-09-25T14:18:54Z",
+    "severity": "INFO",
+    "source_ip": "10.0.23.44",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00319",
+    "timestamp": "2026-09-25T14:19:57Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.13.74",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00320",
+    "timestamp": "2026-09-25T14:20:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.12.117",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00321",
+    "timestamp": "2026-09-25T14:21:03Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.47.5",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00322",
+    "timestamp": "2026-09-25T14:22:06Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.32.68",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00323",
+    "timestamp": "2026-09-25T14:23:09Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.29.185",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00324",
+    "timestamp": "2026-09-25T14:24:12Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.4.197",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00325",
+    "timestamp": "2026-09-25T14:25:15Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.39.227",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00326",
+    "timestamp": "2026-09-25T14:26:18Z",
+    "severity": "INFO",
+    "source_ip": "10.0.24.218",
+    "destination_port": 80,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00327",
+    "timestamp": "2026-09-25T14:27:21Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.27.28",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00328",
+    "timestamp": "2026-09-25T14:28:24Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.42.126",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00329",
+    "timestamp": "2026-09-25T14:29:27Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.44.95",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00330",
+    "timestamp": "2026-09-25T14:30:30Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.17.183",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00331",
+    "timestamp": "2026-09-25T14:31:33Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.41.144",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00332",
+    "timestamp": "2026-09-25T14:32:36Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.26.217",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00333",
+    "timestamp": "2026-09-25T14:33:39Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.6.127",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00334",
+    "timestamp": "2026-09-25T14:34:42Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.43.146",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00335",
+    "timestamp": "2026-09-25T14:35:45Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.12.177",
+    "destination_port": 443,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00336",
+    "timestamp": "2026-09-25T14:36:48Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.39.90",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00337",
+    "timestamp": "2026-09-25T14:37:51Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.38.6",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00338",
+    "timestamp": "2026-09-25T14:38:54Z",
+    "severity": "INFO",
+    "source_ip": "10.0.37.13",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00339",
+    "timestamp": "2026-09-25T14:39:57Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.3.59",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00340",
+    "timestamp": "2026-09-25T14:40:00Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.36.144",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00341",
+    "timestamp": "2026-09-25T14:41:03Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.31.212",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00342",
+    "timestamp": "2026-09-25T14:42:06Z",
+    "severity": "INFO",
+    "source_ip": "10.0.14.56",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00343",
+    "timestamp": "2026-09-25T14:43:09Z",
+    "severity": "INFO",
+    "source_ip": "10.0.12.20",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00344",
+    "timestamp": "2026-09-25T14:44:12Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.13.128",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00345",
+    "timestamp": "2026-09-25T14:45:15Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.19.233",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00346",
+    "timestamp": "2026-09-25T14:46:18Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.45.26",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00347",
+    "timestamp": "2026-09-25T14:47:21Z",
+    "severity": "INFO",
+    "source_ip": "10.0.50.43",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00348",
+    "timestamp": "2026-09-25T14:48:24Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.33.164",
+    "destination_port": 8080,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00349",
+    "timestamp": "2026-09-25T14:49:27Z",
+    "severity": "INFO",
+    "source_ip": "10.0.48.49",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00350",
+    "timestamp": "2026-09-25T14:50:30Z",
+    "severity": "INFO",
+    "source_ip": "10.0.48.240",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00351",
+    "timestamp": "2026-09-25T14:51:33Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.3.241",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00352",
+    "timestamp": "2026-09-25T14:52:36Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.10.121",
+    "destination_port": 3306,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00353",
+    "timestamp": "2026-09-25T14:53:39Z",
+    "severity": "INFO",
+    "source_ip": "10.0.47.194",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00354",
+    "timestamp": "2026-09-25T14:54:42Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.40.208",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00355",
+    "timestamp": "2026-09-25T14:55:45Z",
+    "severity": "INFO",
+    "source_ip": "10.0.34.109",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00356",
+    "timestamp": "2026-09-25T14:56:48Z",
+    "severity": "INFO",
+    "source_ip": "10.0.4.75",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00357",
+    "timestamp": "2026-09-25T14:57:51Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.9.216",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00358",
+    "timestamp": "2026-09-25T14:58:54Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.40.204",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00359",
+    "timestamp": "2026-09-25T14:59:57Z",
+    "severity": "INFO",
+    "source_ip": "10.0.15.160",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00360",
+    "timestamp": "2026-09-25T14:00:00Z",
+    "severity": "INFO",
+    "source_ip": "10.0.5.116",
+    "destination_port": 22,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00361",
+    "timestamp": "2026-09-25T14:01:03Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.13.92",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00362",
+    "timestamp": "2026-09-25T14:02:06Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.42.100",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00363",
+    "timestamp": "2026-09-25T14:03:09Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.22.147",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00364",
+    "timestamp": "2026-09-25T14:04:12Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.46.148",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00365",
+    "timestamp": "2026-09-25T14:05:15Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.25.47",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00366",
+    "timestamp": "2026-09-25T14:06:18Z",
+    "severity": "INFO",
+    "source_ip": "10.0.17.15",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00367",
+    "timestamp": "2026-09-25T14:07:21Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.48.180",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00368",
+    "timestamp": "2026-09-25T14:08:24Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.31.24",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00369",
+    "timestamp": "2026-09-25T14:09:27Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.33.228",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00370",
+    "timestamp": "2026-09-25T14:10:30Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.46.9",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00371",
+    "timestamp": "2026-09-25T14:11:33Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.41.166",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00372",
+    "timestamp": "2026-09-25T14:12:36Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.37.91",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00373",
+    "timestamp": "2026-09-25T14:13:39Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.19.151",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00374",
+    "timestamp": "2026-09-25T14:14:42Z",
+    "severity": "INFO",
+    "source_ip": "10.0.28.122",
+    "destination_port": 22,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00375",
+    "timestamp": "2026-09-25T14:15:45Z",
+    "severity": "INFO",
+    "source_ip": "10.0.16.211",
+    "destination_port": 22,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00376",
+    "timestamp": "2026-09-25T14:16:48Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.26.11",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00377",
+    "timestamp": "2026-09-25T14:17:51Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.31.134",
+    "destination_port": 3306,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00378",
+    "timestamp": "2026-09-25T14:18:54Z",
+    "severity": "INFO",
+    "source_ip": "10.0.4.33",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00379",
+    "timestamp": "2026-09-25T14:19:57Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.38.46",
+    "destination_port": 8080,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00380",
+    "timestamp": "2026-09-25T14:20:00Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.41.55",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00381",
+    "timestamp": "2026-09-25T14:21:03Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.48.234",
+    "destination_port": 8080,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00382",
+    "timestamp": "2026-09-25T14:22:06Z",
+    "severity": "INFO",
+    "source_ip": "10.0.16.224",
+    "destination_port": 22,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00383",
+    "timestamp": "2026-09-25T14:23:09Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.5.158",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00384",
+    "timestamp": "2026-09-25T14:24:12Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.23.119",
+    "destination_port": 80,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00385",
+    "timestamp": "2026-09-25T14:25:15Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.4.236",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00386",
+    "timestamp": "2026-09-25T14:26:18Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.13.50",
+    "destination_port": 80,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00387",
+    "timestamp": "2026-09-25T14:27:21Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.26.205",
+    "destination_port": 80,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00388",
+    "timestamp": "2026-09-25T14:28:24Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.37.136",
+    "destination_port": 8080,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00389",
+    "timestamp": "2026-09-25T14:29:27Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.4.50",
+    "destination_port": 3306,
+    "action": "ALLOW",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00390",
+    "timestamp": "2026-09-25T14:30:30Z",
+    "severity": "WARNING",
+    "source_ip": "10.0.34.39",
+    "destination_port": 3306,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00391",
+    "timestamp": "2026-09-25T14:31:33Z",
+    "severity": "AUDIT",
+    "source_ip": "10.0.15.32",
+    "destination_port": 443,
+    "action": "FLAG_FRAGMENT",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00392",
+    "timestamp": "2026-09-25T14:32:36Z",
+    "severity": "INFO",
+    "source_ip": "10.0.19.78",
+    "destination_port": 443,
+    "action": "QUARANTINE",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  },
+  {
+    "event_id": "EVT-1702-00393",
+    "timestamp": "2026-09-25T14:33:39Z",
+    "severity": "CRITICAL",
+    "source_ip": "10.0.20.21",
+    "destination_port": 443,
+    "action": "BLOCK",
+    "details": "Sector trace analysis node #2 recorded unmapped block allocation."
+  }
+]
