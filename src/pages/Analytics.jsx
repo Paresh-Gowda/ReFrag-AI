@@ -1,208 +1,590 @@
 import { useEffect, useState } from "react";
 import {
-  BarChart3,
-  ShieldCheck,
-  AlertTriangle,
-  Layers3,
   Activity,
+  Brain,
+  ShieldCheck,
+  Network,
+  Image,
+  Database,
+  Target,
+  Zap,
+  RefreshCw,
+  CheckCircle2,
+  AlertTriangle,
+  BarChart3,
 } from "lucide-react";
 
 import { getAnalytics } from "../services/api";
 import "../styles/analytics.css";
 
+function pct(value) {
+  const n = Number(value);
+
+  if (!Number.isFinite(n)) {
+    return 0;
+  }
+
+  return n <= 1 ? n * 100 : n;
+}
 
 function Analytics() {
-  const [analytics, setAnalytics] = useState(null);
+  const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [refreshing, setRefreshing] = useState(false);
+  const [error, setError] = useState("");
 
+  async function loadAnalytics(showRefresh = false) {
+    try {
+      if (showRefresh) {
+        setRefreshing(true);
+      } else {
+        setLoading(true);
+      }
+
+      setError("");
+
+      const response = await getAnalytics();
+
+      setData(response || {});
+    } catch (err) {
+      console.error(
+        "Failed to load analytics:",
+        err
+      );
+
+      setError(
+        err.message ||
+          "Failed to load analytics."
+      );
+    } finally {
+      setLoading(false);
+      setRefreshing(false);
+    }
+  }
 
   useEffect(() => {
-    async function loadAnalytics() {
-      try {
-        const data = await getAnalytics();
-        setAnalytics(data);
-      } catch (error) {
-        console.error(
-          "Failed to load analytics:",
-          error
-        );
-      } finally {
-        setLoading(false);
-      }
-    }
-
     loadAnalytics();
   }, []);
-
 
   if (loading) {
     return (
       <div className="analytics-page">
         <div className="analytics-loading">
-          Loading forensic analytics...
+          <BarChart3 size={28} />
+          <strong>
+            Loading recovery analytics...
+          </strong>
+          <span>
+            Reading the current ReFrag AI session.
+          </span>
         </div>
       </div>
     );
   }
 
+  if (error) {
+    return (
+      <div className="analytics-page">
+        <div className="analytics-error">
+          <AlertTriangle size={22} />
+
+          <div>
+            <strong>
+              Analytics unavailable
+            </strong>
+
+            <p>{error}</p>
+
+            <button
+              onClick={() =>
+                loadAnalytics(true)
+              }
+            >
+              <RefreshCw size={14} />
+              Retry
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const analytics =
+    data?.analytics || {};
 
   const integrity =
-    analytics?.integrity || {};
+    data?.integrity || {};
 
   const priority =
-    analytics?.priority || {};
+    data?.priority || {};
 
+  const modelSignals =
+    data?.model_signals || {};
 
-  const valid =
-    integrity.valid || 0;
+  const activeFile =
+    data?.file ||
+    "No active scan";
 
-  const partial =
-    integrity.partial || 0;
+  const isVisual =
+    analytics.visual_recovery === true ||
+    analytics.mode === "visual";
 
-  const corrupted =
-    integrity.corrupted || 0;
+  const totalFragments =
+    Number(
+      analytics.total_fragments || 0
+    );
 
-  const high =
-    priority.HIGH || 0;
+  const relationships =
+    Number(
+      analytics.relationships_analyzed || 0
+    );
 
-  const medium =
-    priority.MEDIUM || 0;
+  const strongRelationships =
+    Number(
+      analytics.strong_relationships || 0
+    );
 
-  const low =
-    priority.LOW || 0;
+  const reconstructionConfidence =
+    pct(
+      analytics.reconstruction_confidence ||
+        analytics.similarity ||
+        0
+    );
+
+  const priorityScore =
+    pct(
+      analytics.priority_score || 0
+    );
+
+  const entropy =
+    Number(analytics.entropy || 0);
+
+  const recovered =
+    pct(
+      analytics.recovered_percentage ||
+        0
+    );
+
+  const damaged =
+    pct(
+      analytics.damaged_percentage ||
+        0
+    );
+
+  const damageRegions =
+    Number(
+      analytics.damage_regions || 0
+    );
 
   const totalIntegrity =
-    valid +
-    partial +
-    corrupted;
-
+    Number(integrity.valid || 0) +
+    Number(integrity.partial || 0) +
+    Number(integrity.corrupted || 0);
 
   return (
     <div className="analytics-page">
 
+      {/* ================================================= */}
       {/* HEADER */}
+      {/* ================================================= */}
 
-      <div className="analytics-header">
+      <section className="analytics-hero">
 
         <div>
+
+          <div className="analytics-live">
+            <span />
+            LIVE ANALYTICS
+          </div>
+
           <p className="eyebrow">
-            FORENSIC ANALYTICS
+            RECOVERY ANALYTICS
           </p>
 
           <h1>
-            Recovery Analytics
+            Intelligence Analytics
           </h1>
 
+          <p className="analytics-description">
+            Understand how ReFrag AI interpreted
+            the current recovery session, from
+            fragment relationships and integrity
+            to visual damage and evidence priority.
+          </p>
+
+          <div className="analytics-file">
+
+            {isVisual ? (
+              <Image size={15} />
+            ) : (
+              <Database size={15} />
+            )}
+
+            <span>
+              ACTIVE SESSION
+            </span>
+
+            <strong>
+              {activeFile}
+            </strong>
+
+          </div>
+
+        </div>
+
+        <button
+          className="analytics-refresh"
+          onClick={() =>
+            loadAnalytics(true)
+          }
+          disabled={refreshing}
+        >
+          <RefreshCw
+            size={15}
+            className={
+              refreshing
+                ? "analytics-spin"
+                : ""
+            }
+          />
+
+          Refresh
+        </button>
+
+      </section>
+
+
+      {/* ================================================= */}
+      {/* MODE */}
+      {/* ================================================= */}
+
+      <section className="analysis-mode">
+
+        <div className="mode-icon">
+          {isVisual ? (
+            <Image size={20} />
+          ) : (
+            <Database size={20} />
+          )}
+        </div>
+
+        <div>
+          <span>
+            ANALYSIS MODE
+          </span>
+
+          <strong>
+            {isVisual
+              ? "VISUAL IMAGE RECOVERY"
+              : "DIGITAL FRAGMENT RECOVERY"}
+          </strong>
+
           <p>
-            Statistical overview of reconstruction,
-            integrity and evidence prioritization.
+            {isVisual
+              ? "Reference matching, damage analysis and reference-assisted restoration."
+              : "Fragment classification, relationship analysis and reconstruction."}
           </p>
         </div>
 
-
-        <div className="analytics-status">
-          <Activity size={17} />
-          LIVE PIPELINE DATA
+        <div className="mode-status">
+          <CheckCircle2 size={14} />
+          ACTIVE
         </div>
 
-      </div>
+      </section>
 
 
-      {/* OVERVIEW */}
+      {/* ================================================= */}
+      {/* TOP METRICS */}
+      {/* ================================================= */}
 
-      <div className="analytics-grid">
+      <section className="analytics-metrics">
 
-        <div className="analytics-card">
+        {isVisual ? (
+          <>
+            <Metric
+              icon={<Target size={18} />}
+              label="REFERENCE MATCH"
+              value={`${reconstructionConfidence.toFixed(
+                2
+              )}%`}
+              detail="Visual similarity"
+            />
 
-          <div className="analytics-card-icon">
-            <Layers3 size={20} />
+            <Metric
+              icon={<ShieldCheck size={18} />}
+              label="RECOVERED"
+              value={`${recovered.toFixed(
+                2
+              )}%`}
+              detail="Preserved input evidence"
+            />
+
+            <Metric
+              icon={<AlertTriangle size={18} />}
+              label="DAMAGED"
+              value={`${damaged.toFixed(
+                2
+              )}%`}
+              detail="Reference difference"
+            />
+
+            <Metric
+              icon={<Activity size={18} />}
+              label="DAMAGE REGIONS"
+              value={damageRegions}
+              detail="Detected regions"
+            />
+          </>
+        ) : (
+          <>
+            <Metric
+              icon={<Database size={18} />}
+              label="FRAGMENTS"
+              value={totalFragments}
+              detail="Current file"
+            />
+
+            <Metric
+              icon={<Network size={18} />}
+              label="RELATIONSHIPS"
+              value={relationships}
+              detail="Analyzed"
+            />
+
+            <Metric
+              icon={<Brain size={18} />}
+              label="STRONG LINKS"
+              value={strongRelationships}
+              detail="High-confidence links"
+            />
+
+            <Metric
+              icon={<Target size={18} />}
+              label="RECONSTRUCTION"
+              value={`${reconstructionConfidence.toFixed(
+                1
+              )}%`}
+              detail="AI confidence"
+            />
+          </>
+        )}
+
+      </section>
+
+
+      {/* ================================================= */}
+      {/* VISUAL ANALYTICS */}
+      {/* ================================================= */}
+
+      {isVisual ? (
+
+        <section className="visual-analytics">
+
+          <div className="section-title">
+
+            <div>
+              <p className="eyebrow">
+                VISUAL FORENSICS
+              </p>
+
+              <h2>
+                Damage & Recovery Analysis
+              </h2>
+            </div>
+
+            <div className="section-chip">
+              <Image size={14} />
+              IMAGE
+            </div>
+
           </div>
 
-          <span>
-            Reconstruction Candidates
-          </span>
 
-          <strong>
-            {totalIntegrity}
-          </strong>
+          <div className="recovery-comparison">
 
-          <small>
-            Files analyzed
-          </small>
+            <div className="comparison-card">
 
-        </div>
+              <div className="comparison-top">
+
+                <span>
+                  PRESERVED
+                </span>
+
+                <strong>
+                  {recovered.toFixed(2)}%
+                </strong>
+
+              </div>
+
+              <div className="comparison-track">
+                <span
+                  style={{
+                    width: `${Math.min(
+                      100,
+                      Math.max(
+                        0,
+                        recovered
+                      )
+                    )}%`,
+                  }}
+                />
+              </div>
+
+              <p>
+                Pixels supported directly
+                by the uploaded image.
+              </p>
+
+            </div>
 
 
-        <div className="analytics-card">
+            <div className="comparison-card damaged">
 
-          <div className="analytics-card-icon">
-            <ShieldCheck size={20} />
+              <div className="comparison-top">
+
+                <span>
+                  DAMAGED / DIFFERENT
+                </span>
+
+                <strong>
+                  {damaged.toFixed(2)}%
+                </strong>
+
+              </div>
+
+              <div className="comparison-track">
+                <span
+                  style={{
+                    width: `${Math.min(
+                      100,
+                      Math.max(
+                        0,
+                        damaged
+                      )
+                    )}%`,
+                  }}
+                />
+              </div>
+
+              <p>
+                Pixels differing from the
+                matched reference.
+              </p>
+
+            </div>
+
           </div>
 
-          <span>
-            Valid Evidence
-          </span>
 
-          <strong>
-            {valid}
-          </strong>
+          <div className="visual-stat-grid">
 
-          <small>
-            Passed integrity checks
-          </small>
+            <StatBox
+              icon={<Target size={17} />}
+              label="REFERENCE SIMILARITY"
+              value={`${reconstructionConfidence.toFixed(
+                2
+              )}%`}
+            />
 
-        </div>
+            <StatBox
+              icon={<ShieldCheck size={17} />}
+              label="PRESERVED EVIDENCE"
+              value={`${recovered.toFixed(
+                2
+              )}%`}
+            />
 
+            <StatBox
+              icon={<AlertTriangle size={17} />}
+              label="DAMAGED AREA"
+              value={`${damaged.toFixed(
+                2
+              )}%`}
+            />
 
-        <div className="analytics-card">
+            <StatBox
+              icon={<Activity size={17} />}
+              label="DAMAGE REGIONS"
+              value={damageRegions}
+            />
 
-          <div className="analytics-card-icon">
-            <AlertTriangle size={20} />
           </div>
 
-          <span>
-            Corrupted
-          </span>
+        </section>
 
-          <strong>
-            {corrupted}
-          </strong>
+      ) : (
 
-          <small>
-            Require further analysis
-          </small>
+        /* ================================================= */
+        /* BYTE ANALYTICS */
+        /* ================================================= */
 
-        </div>
+        <section className="byte-analytics">
 
+          <div className="section-title">
 
-        <div className="analytics-card">
+            <div>
+              <p className="eyebrow">
+                FRAGMENT FORENSICS
+              </p>
 
-          <div className="analytics-card-icon">
-            <BarChart3 size={20} />
+              <h2>
+                Recovery Engine Analysis
+              </h2>
+            </div>
+
+            <div className="section-chip">
+              <Database size={14} />
+              BYTES
+            </div>
+
           </div>
 
-          <span>
-            High Priority
-          </span>
 
-          <strong>
-            {high}
-          </strong>
+          <div className="byte-grid">
 
-          <small>
-            Evidence candidates
-          </small>
+            <StatBox
+              icon={<Database size={17} />}
+              label="TOTAL FRAGMENTS"
+              value={totalFragments}
+            />
 
-        </div>
+            <StatBox
+              icon={<Network size={17} />}
+              label="RELATIONSHIPS ANALYZED"
+              value={relationships}
+            />
 
-      </div>
+            <StatBox
+              icon={<Zap size={17} />}
+              label="STRONG RELATIONSHIPS"
+              value={strongRelationships}
+            />
+
+            <StatBox
+              icon={<Activity size={17} />}
+              label="ENTROPY"
+              value={
+                Number.isFinite(entropy)
+                  ? entropy.toFixed(3)
+                  : "—"
+              }
+            />
+
+          </div>
+
+        </section>
+
+      )}
 
 
+      {/* ================================================= */}
       {/* INTEGRITY */}
+      {/* ================================================= */}
 
-      <div className="analytics-section">
+      <section className="analytics-section">
 
-        <div className="analytics-section-title">
+        <div className="section-title">
 
           <div>
             <p className="eyebrow">
@@ -210,223 +592,455 @@ function Analytics() {
             </p>
 
             <h2>
-              Reconstruction Health
+              Evidence Integrity
             </h2>
+
+            <p>
+              Current integrity classification
+              generated by the recovery engine.
+            </p>
           </div>
 
         </div>
 
 
-        <div className="chart-card">
+        <div className="integrity-layout">
 
-          <div className="bar-chart">
+          <div className="integrity-main">
 
-            <div className="bar-item">
+            <IntegrityBar
+              label="VALID"
+              value={
+                Number(
+                  integrity.valid || 0
+                )
+              }
+              total={totalIntegrity}
+              type="valid"
+            />
 
-              <div className="bar-value">
-                {valid}
-              </div>
+            <IntegrityBar
+              label="PARTIAL"
+              value={
+                Number(
+                  integrity.partial || 0
+                )
+              }
+              total={totalIntegrity}
+              type="partial"
+            />
 
-              <div className="bar-track">
-
-                <div
-                  className="bar valid"
-                  style={{
-                    height: `${
-                      totalIntegrity
-                        ? (valid / totalIntegrity) * 100
-                        : 0
-                    }%`,
-                  }}
-                />
-
-              </div>
-
-              <span>
-                VALID
-              </span>
-
-            </div>
-
-
-            <div className="bar-item">
-
-              <div className="bar-value">
-                {partial}
-              </div>
-
-              <div className="bar-track">
-
-                <div
-                  className="bar partial"
-                  style={{
-                    height: `${
-                      totalIntegrity
-                        ? (partial / totalIntegrity) * 100
-                        : 0
-                    }%`,
-                  }}
-                />
-
-              </div>
-
-              <span>
-                PARTIAL
-              </span>
-
-            </div>
-
-
-            <div className="bar-item">
-
-              <div className="bar-value">
-                {corrupted}
-              </div>
-
-              <div className="bar-track">
-
-                <div
-                  className="bar corrupted"
-                  style={{
-                    height: `${
-                      totalIntegrity
-                        ? (corrupted / totalIntegrity) * 100
-                        : 0
-                    }%`,
-                  }}
-                />
-
-              </div>
-
-              <span>
-                CORRUPTED
-              </span>
-
-            </div>
+            <IntegrityBar
+              label="CORRUPTED"
+              value={
+                Number(
+                  integrity.corrupted || 0
+                )
+              }
+              total={totalIntegrity}
+              type="corrupted"
+            />
 
           </div>
 
 
           <div className="integrity-summary">
 
-            <div>
-              <span>Valid</span>
-              <strong>{valid}</strong>
-            </div>
+            <ShieldCheck size={22} />
 
-            <div>
-              <span>Partial</span>
-              <strong>{partial}</strong>
-            </div>
+            <strong>
+              {isVisual
+                ? "REFERENCE-ASSISTED"
+                : "ENGINE ASSESSED"}
+            </strong>
 
-            <div>
-              <span>Corrupted</span>
-              <strong>{corrupted}</strong>
-            </div>
+            <span>
+              {isVisual
+                ? "Visual evidence uses preserved pixels and reference differences."
+                : "Integrity is determined from the current reconstruction analysis."}
+            </span>
 
           </div>
 
         </div>
 
-      </div>
+      </section>
 
 
+      {/* ================================================= */}
       {/* PRIORITY */}
+      {/* ================================================= */}
 
-      <div className="analytics-section">
+      <section className="analytics-section">
 
-        <div className="analytics-section-title">
+        <div className="section-title">
 
           <div>
             <p className="eyebrow">
-              AI PRIORITIZATION
+              EVIDENCE PRIORITIZATION
             </p>
 
             <h2>
-              Evidence Distribution
+              Analyst Priority
             </h2>
+
+            <p>
+              Evidence ranking generated from
+              recovery confidence and integrity
+              signals.
+            </p>
+          </div>
+
+          <div className="priority-score">
+
+            <span>
+              SCORE
+            </span>
+
+            <strong>
+              {priorityScore.toFixed(1)}
+            </strong>
+
           </div>
 
         </div>
 
 
-        <div className="priority-analytics">
+        <div className="priority-grid">
 
-          <div className="priority-row">
+          <PriorityCard
+            label="HIGH"
+            value={priority.HIGH || 0}
+          />
 
-            <div className="priority-label">
-              <span>HIGH</span>
-              <strong>{high}</strong>
-            </div>
+          <PriorityCard
+            label="MEDIUM"
+            value={priority.MEDIUM || 0}
+          />
 
-            <div className="priority-track">
-              <div
-                className="priority-fill high"
-                style={{
-                  width: `${
-                    totalIntegrity
-                      ? (high / totalIntegrity) * 100
-                      : 0
-                  }%`,
-                }}
-              />
-            </div>
+          <PriorityCard
+            label="LOW"
+            value={priority.LOW || 0}
+          />
 
-          </div>
+        </div>
+
+      </section>
 
 
-          <div className="priority-row">
+      {/* ================================================= */}
+      {/* MODEL SIGNALS */}
+      {/* ================================================= */}
 
-            <div className="priority-label">
-              <span>MEDIUM</span>
-              <strong>{medium}</strong>
-            </div>
+      <section className="analytics-section">
 
-            <div className="priority-track">
-              <div
-                className="priority-fill medium"
-                style={{
-                  width: `${
-                    totalIntegrity
-                      ? (medium / totalIntegrity) * 100
-                      : 0
-                  }%`,
-                }}
-              />
-            </div>
+        <div className="section-title">
 
-          </div>
+          <div>
+            <p className="eyebrow">
+              AI PIPELINE
+            </p>
 
+            <h2>
+              Model & Engine Signals
+            </h2>
 
-          <div className="priority-row">
-
-            <div className="priority-label">
-              <span>LOW</span>
-              <strong>{low}</strong>
-            </div>
-
-            <div className="priority-track">
-              <div
-                className="priority-fill low"
-                style={{
-                  width: `${
-                    totalIntegrity
-                      ? (low / totalIntegrity) * 100
-                      : 0
-                  }%`,
-                }}
-              />
-            </div>
-
+            <p>
+              Components contributing to the
+              current analysis session.
+            </p>
           </div>
 
         </div>
 
+
+        <div className="engine-grid">
+
+          <Engine
+            icon={<Database size={17} />}
+            title="Fragment Classifier"
+            active={
+              modelSignals.fragment_classifier
+            }
+            description={
+              isVisual
+                ? "Not used for visual recovery."
+                : "Identifies probable file type."
+            }
+          />
+
+          <Engine
+            icon={<Network size={17} />}
+            title="Relationship Engine"
+            active={
+              modelSignals.relationship_engine
+            }
+            description={
+              isVisual
+                ? "Not used for visual recovery."
+                : "Analyzes fragment relationships."
+            }
+          />
+
+          <Engine
+            icon={<Brain size={17} />}
+            title="Reconstruction Engine"
+            active={
+              modelSignals.reconstruction_engine
+            }
+            description={
+              isVisual
+                ? "Reference-assisted restoration."
+                : "Builds candidate evidence chains."
+            }
+          />
+
+          <Engine
+            icon={<ShieldCheck size={17} />}
+            title="Integrity Analyzer"
+            active={
+              modelSignals.integrity_analyzer
+            }
+            description="Evaluates recovery integrity."
+          />
+
+          <Engine
+            icon={<Target size={17} />}
+            title="Evidence Prioritizer"
+            active={
+              modelSignals.evidence_prioritizer
+            }
+            description="Ranks evidence for analyst review."
+          />
+
+          <Engine
+            icon={<Image size={17} />}
+            title="Visual Recovery"
+            active={
+              modelSignals.visual_recovery ||
+              isVisual
+            }
+            description="Reference database image recovery."
+          />
+
+        </div>
+
+      </section>
+
+
+      {/* ================================================= */}
+      {/* FORENSIC NOTE */}
+      {/* ================================================= */}
+
+      <section className="analytics-note">
+
+        <ShieldCheck size={19} />
+
+        <div>
+
+          <p className="eyebrow">
+            FORENSIC INTERPRETATION
+          </p>
+
+          <strong>
+            AI output is an analytical signal.
+          </strong>
+
+          <p>
+            ReFrag AI separates directly preserved
+            evidence from reference-assisted or
+            model-derived information. Final forensic
+            conclusions require analyst validation.
+          </p>
+
+        </div>
+
+      </section>
+
+    </div>
+  );
+}
+
+
+/* ============================================================
+   COMPONENTS
+   ============================================================ */
+
+function Metric({
+  icon,
+  label,
+  value,
+  detail,
+}) {
+  return (
+    <div className="analytics-metric">
+
+      <div className="metric-icon">
+        {icon}
+      </div>
+
+      <div>
+        <span>{label}</span>
+
+        <strong>{value}</strong>
+
+        <small>{detail}</small>
       </div>
 
     </div>
   );
 }
 
+
+function StatBox({
+  icon,
+  label,
+  value,
+}) {
+  return (
+    <div className="stat-box">
+
+      <div className="stat-icon">
+        {icon}
+      </div>
+
+      <span>
+        {label}
+      </span>
+
+      <strong>
+        {value}
+      </strong>
+
+    </div>
+  );
+}
+
+
+function IntegrityBar({
+  label,
+  value,
+  total,
+  type,
+}) {
+  const percentage =
+    total > 0
+      ? (value / total) * 100
+      : 0;
+
+  return (
+    <div className="integrity-bar-row">
+
+      <div className="integrity-bar-label">
+
+        <span className={`integrity-dot ${type}`} />
+
+        <strong>
+          {label}
+        </strong>
+
+        <span>
+          {value}
+        </span>
+
+      </div>
+
+      <div className="integrity-track">
+
+        <span
+          className={type}
+          style={{
+            width: `${percentage}%`,
+          }}
+        />
+
+      </div>
+
+      <small>
+        {percentage.toFixed(1)}%
+      </small>
+
+    </div>
+  );
+}
+
+
+function PriorityCard({
+  label,
+  value,
+}) {
+  return (
+    <div
+      className={`priority-card ${label.toLowerCase()}`}
+    >
+
+      <div className="priority-card-top">
+
+        <span>
+          {label}
+        </span>
+
+        <Target size={15} />
+
+      </div>
+
+      <strong>
+        {value}
+      </strong>
+
+      <small>
+        evidence item
+        {Number(value) === 1
+          ? ""
+          : "s"}
+      </small>
+
+    </div>
+  );
+}
+
+
+function Engine({
+  icon,
+  title,
+  active,
+  description,
+}) {
+  return (
+    <div
+      className={`engine-card ${
+        active ? "active" : "inactive"
+      }`}
+    >
+
+      <div className="engine-icon">
+        {icon}
+      </div>
+
+      <div className="engine-copy">
+
+        <strong>
+          {title}
+        </strong>
+
+        <span>
+          {description}
+        </span>
+
+      </div>
+
+      <div className="engine-state">
+
+        <span />
+
+        {active
+          ? "ACTIVE"
+          : "IDLE"}
+
+      </div>
+
+    </div>
+  );
+}
 
 export default Analytics;

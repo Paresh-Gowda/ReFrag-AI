@@ -1,8 +1,4 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
@@ -19,47 +15,25 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app-shell">
-
         <Sidebar />
 
         <main className="main-content">
-
           <Topbar />
 
           <Routes>
+            <Route path="/" element={<Dashboard />} />
 
-            <Route
-              path="/"
-              element={<Dashboard />}
-            />
+            <Route path="/scan" element={<ScanData />} />
 
-            <Route
-              path="/scan"
-              element={<ScanData />}
-            />
+            <Route path="/fragments" element={<Fragments />} />
 
-            <Route
-              path="/fragments"
-              element={<Fragments />}
-            />
+            <Route path="/evidence" element={<Evidence />} />
 
-            <Route
-              path="/evidence"
-              element={<Evidence />}
-            />
-
-            <Route
-              path="/analytics"
-              element={<Analytics />}
-            />
-
+            <Route path="/analytics" element={<Analytics />} />
           </Routes>
-
         </main>
-
       </div>
     </BrowserRouter>
   );
 }
-
 export default App;

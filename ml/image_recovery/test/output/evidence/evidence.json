@@ -1,0 +1,33 @@
+{
+  "broken_image": "reference_database/broken/001_broken.jpg",
+  "reference_image": "reference_database/clean/001_clean.jpg",
+  "image_width": 640,
+  "image_height": 480,
+  "total_pixels": 307200,
+  "preserved_pixels": 297970,
+  "damaged_pixels": 9230,
+  "recovered_percent": 97.0,
+  "damaged_percent": 3.0,
+  "damage_regions": 1,
+  "regions": [
+    {
+      "region_id": 1,
+      "x": 30,
+      "y": 194,
+      "width": 130,
+      "height": 71,
+      "area_pixels": 9230,
+      "area_percent": 3.005
+    }
+  ],
+  "evidence": {
+    "preserved_content": "DIRECT_INPUT_EVIDENCE",
+    "damaged_content": "DIFFERENCE_FROM_REFERENCE",
+    "restored_content": "REFERENCE_ASSISTED"
+  },
+  "outputs": {
+    "damage_mask": "test\\output\\evidence\\damage_mask.png",
+    "evidence_map": "test\\output\\evidence\\evidence_map.png",
+    "restored_image": "test\\output\\evidence\\restored_image.png"
+  }
+}

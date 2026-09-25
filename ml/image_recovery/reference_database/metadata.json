@@ -1,0 +1,702 @@
+[
+  {
+    "id": "001",
+    "clean_image": "reference_database\\clean\\001_clean.jpg",
+    "broken_image": "reference_database\\broken\\001_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "002",
+    "clean_image": "reference_database\\clean\\002_clean.jpg",
+    "broken_image": "reference_database\\broken\\002_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "003",
+    "clean_image": "reference_database\\clean\\003_clean.jpg",
+    "broken_image": "reference_database\\broken\\003_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "004",
+    "clean_image": "reference_database\\clean\\004_clean.jpg",
+    "broken_image": "reference_database\\broken\\004_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "005",
+    "clean_image": "reference_database\\clean\\005_clean.jpg",
+    "broken_image": "reference_database\\broken\\005_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "006",
+    "clean_image": "reference_database\\clean\\006_clean.jpg",
+    "broken_image": "reference_database\\broken\\006_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "007",
+    "clean_image": "reference_database\\clean\\007_clean.jpg",
+    "broken_image": "reference_database\\broken\\007_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "008",
+    "clean_image": "reference_database\\clean\\008_clean.jpg",
+    "broken_image": "reference_database\\broken\\008_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "009",
+    "clean_image": "reference_database\\clean\\009_clean.jpg",
+    "broken_image": "reference_database\\broken\\009_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "010",
+    "clean_image": "reference_database\\clean\\010_clean.jpg",
+    "broken_image": "reference_database\\broken\\010_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "011",
+    "clean_image": "reference_database\\clean\\011_clean.jpg",
+    "broken_image": "reference_database\\broken\\011_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "012",
+    "clean_image": "reference_database\\clean\\012_clean.jpg",
+    "broken_image": "reference_database\\broken\\012_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "013",
+    "clean_image": "reference_database\\clean\\013_clean.jpg",
+    "broken_image": "reference_database\\broken\\013_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "014",
+    "clean_image": "reference_database\\clean\\014_clean.jpg",
+    "broken_image": "reference_database\\broken\\014_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "015",
+    "clean_image": "reference_database\\clean\\015_clean.jpg",
+    "broken_image": "reference_database\\broken\\015_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "016",
+    "clean_image": "reference_database\\clean\\016_clean.jpg",
+    "broken_image": "reference_database\\broken\\016_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "017",
+    "clean_image": "reference_database\\clean\\017_clean.jpg",
+    "broken_image": "reference_database\\broken\\017_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "018",
+    "clean_image": "reference_database\\clean\\018_clean.jpg",
+    "broken_image": "reference_database\\broken\\018_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "019",
+    "clean_image": "reference_database\\clean\\019_clean.jpg",
+    "broken_image": "reference_database\\broken\\019_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "020",
+    "clean_image": "reference_database\\clean\\020_clean.jpg",
+    "broken_image": "reference_database\\broken\\020_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "021",
+    "clean_image": "reference_database\\clean\\021_clean.jpg",
+    "broken_image": "reference_database\\broken\\021_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "022",
+    "clean_image": "reference_database\\clean\\022_clean.jpg",
+    "broken_image": "reference_database\\broken\\022_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "023",
+    "clean_image": "reference_database\\clean\\023_clean.jpg",
+    "broken_image": "reference_database\\broken\\023_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "024",
+    "clean_image": "reference_database\\clean\\024_clean.jpg",
+    "broken_image": "reference_database\\broken\\024_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "025",
+    "clean_image": "reference_database\\clean\\025_clean.jpg",
+    "broken_image": "reference_database\\broken\\025_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "026",
+    "clean_image": "reference_database\\clean\\026_clean.jpg",
+    "broken_image": "reference_database\\broken\\026_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "027",
+    "clean_image": "reference_database\\clean\\027_clean.jpg",
+    "broken_image": "reference_database\\broken\\027_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "028",
+    "clean_image": "reference_database\\clean\\028_clean.jpg",
+    "broken_image": "reference_database\\broken\\028_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "029",
+    "clean_image": "reference_database\\clean\\029_clean.jpg",
+    "broken_image": "reference_database\\broken\\029_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "030",
+    "clean_image": "reference_database\\clean\\030_clean.jpg",
+    "broken_image": "reference_database\\broken\\030_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "031",
+    "clean_image": "reference_database\\clean\\031_clean.jpg",
+    "broken_image": "reference_database\\broken\\031_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "032",
+    "clean_image": "reference_database\\clean\\032_clean.jpg",
+    "broken_image": "reference_database\\broken\\032_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "033",
+    "clean_image": "reference_database\\clean\\033_clean.jpg",
+    "broken_image": "reference_database\\broken\\033_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "034",
+    "clean_image": "reference_database\\clean\\034_clean.jpg",
+    "broken_image": "reference_database\\broken\\034_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "035",
+    "clean_image": "reference_database\\clean\\035_clean.jpg",
+    "broken_image": "reference_database\\broken\\035_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "036",
+    "clean_image": "reference_database\\clean\\036_clean.jpg",
+    "broken_image": "reference_database\\broken\\036_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "037",
+    "clean_image": "reference_database\\clean\\037_clean.jpg",
+    "broken_image": "reference_database\\broken\\037_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "038",
+    "clean_image": "reference_database\\clean\\038_clean.jpg",
+    "broken_image": "reference_database\\broken\\038_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "039",
+    "clean_image": "reference_database\\clean\\039_clean.jpg",
+    "broken_image": "reference_database\\broken\\039_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "040",
+    "clean_image": "reference_database\\clean\\040_clean.jpg",
+    "broken_image": "reference_database\\broken\\040_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "041",
+    "clean_image": "reference_database\\clean\\041_clean.jpg",
+    "broken_image": "reference_database\\broken\\041_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "042",
+    "clean_image": "reference_database\\clean\\042_clean.jpg",
+    "broken_image": "reference_database\\broken\\042_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "043",
+    "clean_image": "reference_database\\clean\\043_clean.jpg",
+    "broken_image": "reference_database\\broken\\043_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "044",
+    "clean_image": "reference_database\\clean\\044_clean.jpg",
+    "broken_image": "reference_database\\broken\\044_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "045",
+    "clean_image": "reference_database\\clean\\045_clean.jpg",
+    "broken_image": "reference_database\\broken\\045_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "046",
+    "clean_image": "reference_database\\clean\\046_clean.jpg",
+    "broken_image": "reference_database\\broken\\046_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "047",
+    "clean_image": "reference_database\\clean\\047_clean.jpg",
+    "broken_image": "reference_database\\broken\\047_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "048",
+    "clean_image": "reference_database\\clean\\048_clean.jpg",
+    "broken_image": "reference_database\\broken\\048_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "049",
+    "clean_image": "reference_database\\clean\\049_clean.jpg",
+    "broken_image": "reference_database\\broken\\049_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "050",
+    "clean_image": "reference_database\\clean\\050_clean.jpg",
+    "broken_image": "reference_database\\broken\\050_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "051",
+    "clean_image": "reference_database\\clean\\051_clean.jpg",
+    "broken_image": "reference_database\\broken\\051_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "052",
+    "clean_image": "reference_database\\clean\\052_clean.jpg",
+    "broken_image": "reference_database\\broken\\052_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "053",
+    "clean_image": "reference_database\\clean\\053_clean.jpg",
+    "broken_image": "reference_database\\broken\\053_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "054",
+    "clean_image": "reference_database\\clean\\054_clean.jpg",
+    "broken_image": "reference_database\\broken\\054_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "055",
+    "clean_image": "reference_database\\clean\\055_clean.jpg",
+    "broken_image": "reference_database\\broken\\055_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "056",
+    "clean_image": "reference_database\\clean\\056_clean.jpg",
+    "broken_image": "reference_database\\broken\\056_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "057",
+    "clean_image": "reference_database\\clean\\057_clean.jpg",
+    "broken_image": "reference_database\\broken\\057_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "058",
+    "clean_image": "reference_database\\clean\\058_clean.jpg",
+    "broken_image": "reference_database\\broken\\058_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "059",
+    "clean_image": "reference_database\\clean\\059_clean.jpg",
+    "broken_image": "reference_database\\broken\\059_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "060",
+    "clean_image": "reference_database\\clean\\060_clean.jpg",
+    "broken_image": "reference_database\\broken\\060_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "061",
+    "clean_image": "reference_database\\clean\\061_clean.jpg",
+    "broken_image": "reference_database\\broken\\061_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "062",
+    "clean_image": "reference_database\\clean\\062_clean.jpg",
+    "broken_image": "reference_database\\broken\\062_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "063",
+    "clean_image": "reference_database\\clean\\063_clean.jpg",
+    "broken_image": "reference_database\\broken\\063_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "064",
+    "clean_image": "reference_database\\clean\\064_clean.jpg",
+    "broken_image": "reference_database\\broken\\064_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "065",
+    "clean_image": "reference_database\\clean\\065_clean.jpg",
+    "broken_image": "reference_database\\broken\\065_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "066",
+    "clean_image": "reference_database\\clean\\066_clean.jpg",
+    "broken_image": "reference_database\\broken\\066_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "067",
+    "clean_image": "reference_database\\clean\\067_clean.jpg",
+    "broken_image": "reference_database\\broken\\067_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "068",
+    "clean_image": "reference_database\\clean\\068_clean.jpg",
+    "broken_image": "reference_database\\broken\\068_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "069",
+    "clean_image": "reference_database\\clean\\069_clean.jpg",
+    "broken_image": "reference_database\\broken\\069_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "070",
+    "clean_image": "reference_database\\clean\\070_clean.jpg",
+    "broken_image": "reference_database\\broken\\070_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "071",
+    "clean_image": "reference_database\\clean\\071_clean.jpg",
+    "broken_image": "reference_database\\broken\\071_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "072",
+    "clean_image": "reference_database\\clean\\072_clean.jpg",
+    "broken_image": "reference_database\\broken\\072_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "073",
+    "clean_image": "reference_database\\clean\\073_clean.jpg",
+    "broken_image": "reference_database\\broken\\073_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "074",
+    "clean_image": "reference_database\\clean\\074_clean.jpg",
+    "broken_image": "reference_database\\broken\\074_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "075",
+    "clean_image": "reference_database\\clean\\075_clean.jpg",
+    "broken_image": "reference_database\\broken\\075_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "076",
+    "clean_image": "reference_database\\clean\\076_clean.jpg",
+    "broken_image": "reference_database\\broken\\076_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "077",
+    "clean_image": "reference_database\\clean\\077_clean.jpg",
+    "broken_image": "reference_database\\broken\\077_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "078",
+    "clean_image": "reference_database\\clean\\078_clean.jpg",
+    "broken_image": "reference_database\\broken\\078_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "079",
+    "clean_image": "reference_database\\clean\\079_clean.jpg",
+    "broken_image": "reference_database\\broken\\079_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "080",
+    "clean_image": "reference_database\\clean\\080_clean.jpg",
+    "broken_image": "reference_database\\broken\\080_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "081",
+    "clean_image": "reference_database\\clean\\081_clean.jpg",
+    "broken_image": "reference_database\\broken\\081_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "082",
+    "clean_image": "reference_database\\clean\\082_clean.jpg",
+    "broken_image": "reference_database\\broken\\082_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "083",
+    "clean_image": "reference_database\\clean\\083_clean.jpg",
+    "broken_image": "reference_database\\broken\\083_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "084",
+    "clean_image": "reference_database\\clean\\084_clean.jpg",
+    "broken_image": "reference_database\\broken\\084_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "085",
+    "clean_image": "reference_database\\clean\\085_clean.jpg",
+    "broken_image": "reference_database\\broken\\085_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "086",
+    "clean_image": "reference_database\\clean\\086_clean.jpg",
+    "broken_image": "reference_database\\broken\\086_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "087",
+    "clean_image": "reference_database\\clean\\087_clean.jpg",
+    "broken_image": "reference_database\\broken\\087_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "088",
+    "clean_image": "reference_database\\clean\\088_clean.jpg",
+    "broken_image": "reference_database\\broken\\088_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "089",
+    "clean_image": "reference_database\\clean\\089_clean.jpg",
+    "broken_image": "reference_database\\broken\\089_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "090",
+    "clean_image": "reference_database\\clean\\090_clean.jpg",
+    "broken_image": "reference_database\\broken\\090_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "091",
+    "clean_image": "reference_database\\clean\\091_clean.jpg",
+    "broken_image": "reference_database\\broken\\091_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "092",
+    "clean_image": "reference_database\\clean\\092_clean.jpg",
+    "broken_image": "reference_database\\broken\\092_broken.jpg",
+    "damage_type": "multiple_blocks",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "093",
+    "clean_image": "reference_database\\clean\\093_clean.jpg",
+    "broken_image": "reference_database\\broken\\093_broken.jpg",
+    "damage_type": "blur",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "094",
+    "clean_image": "reference_database\\clean\\094_clean.jpg",
+    "broken_image": "reference_database\\broken\\094_broken.jpg",
+    "damage_type": "noise",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "095",
+    "clean_image": "reference_database\\clean\\095_clean.jpg",
+    "broken_image": "reference_database\\broken\\095_broken.jpg",
+    "damage_type": "scratches",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "096",
+    "clean_image": "reference_database\\clean\\096_clean.jpg",
+    "broken_image": "reference_database\\broken\\096_broken.jpg",
+    "damage_type": "partial_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "097",
+    "clean_image": "reference_database\\clean\\097_clean.jpg",
+    "broken_image": "reference_database\\broken\\097_broken.jpg",
+    "damage_type": "jpeg_corruption",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "098",
+    "clean_image": "reference_database\\clean\\098_clean.jpg",
+    "broken_image": "reference_database\\broken\\098_broken.jpg",
+    "damage_type": "darkened",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "099",
+    "clean_image": "reference_database\\clean\\099_clean.jpg",
+    "broken_image": "reference_database\\broken\\099_broken.jpg",
+    "damage_type": "color_damage",
+    "status": "synthetically_damaged"
+  },
+  {
+    "id": "100",
+    "clean_image": "reference_database\\clean\\100_clean.jpg",
+    "broken_image": "reference_database\\broken\\100_broken.jpg",
+    "damage_type": "missing_block",
+    "status": "synthetically_damaged"
+  }
+]

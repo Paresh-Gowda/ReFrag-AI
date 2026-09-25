@@ -1,0 +1,279 @@
+{
+  "success": true,
+  "fragment_count": 64,
+  "grid": [
+    [
+      {
+        "fragment": "F026",
+        "rotation": 0
+      },
+      {
+        "fragment": "F025",
+        "rotation": 0
+      },
+      {
+        "fragment": "F005",
+        "rotation": 270
+      },
+      {
+        "fragment": "F035",
+        "rotation": 90
+      },
+      {
+        "fragment": "F031",
+        "rotation": 0
+      },
+      {
+        "fragment": "F048",
+        "rotation": 0
+      },
+      {
+        "fragment": "F063",
+        "rotation": 180
+      },
+      {
+        "fragment": "F062",
+        "rotation": 180
+      }
+    ],
+    [
+      {
+        "fragment": "F056",
+        "rotation": 180
+      },
+      {
+        "fragment": "F017",
+        "rotation": 0
+      },
+      {
+        "fragment": "F003",
+        "rotation": 90
+      },
+      {
+        "fragment": "F018",
+        "rotation": 270
+      },
+      {
+        "fragment": "F010",
+        "rotation": 270
+      },
+      {
+        "fragment": "F002",
+        "rotation": 270
+      },
+      {
+        "fragment": "F009",
+        "rotation": 180
+      },
+      {
+        "fragment": "F007",
+        "rotation": 270
+      }
+    ],
+    [
+      {
+        "fragment": "F064",
+        "rotation": 180
+      },
+      {
+        "fragment": "F047",
+        "rotation": 180
+      },
+      {
+        "fragment": "F060",
+        "rotation": 90
+      },
+      {
+        "fragment": "F030",
+        "rotation": 90
+      },
+      {
+        "fragment": "F022",
+        "rotation": 90
+      },
+      {
+        "fragment": "F014",
+        "rotation": 90
+      },
+      {
+        "fragment": "F006",
+        "rotation": 90
+      },
+      {
+        "fragment": "F008",
+        "rotation": 90
+      }
+    ],
+    [
+      {
+        "fragment": "F016",
+        "rotation": 0
+      },
+      {
+        "fragment": "F024",
+        "rotation": 90
+      },
+      {
+        "fragment": "F033",
+        "rotation": 270
+      },
+      {
+        "fragment": "F032",
+        "rotation": 270
+      },
+      {
+        "fragment": "F059",
+        "rotation": 90
+      },
+      {
+        "fragment": "F043",
+        "rotation": 90
+      },
+      {
+        "fragment": "F061",
+        "rotation": 270
+      },
+      {
+        "fragment": "F034",
+        "rotation": 270
+      }
+    ],
+    [
+      {
+        "fragment": "F040",
+        "rotation": 180
+      },
+      {
+        "fragment": "F049",
+        "rotation": 0
+      },
+      {
+        "fragment": "F050",
+        "rotation": 0
+      },
+      {
+        "fragment": "F039",
+        "rotation": 0
+      },
+      {
+        "fragment": "F011",
+        "rotation": 0
+      },
+      {
+        "fragment": "F044",
+        "rotation": 0
+      },
+      {
+        "fragment": "F045",
+        "rotation": 0
+      },
+      {
+        "fragment": "F054",
+        "rotation": 180
+      }
+    ],
+    [
+      {
+        "fragment": "F041",
+        "rotation": 90
+      },
+      {
+        "fragment": "F057",
+        "rotation": 0
+      },
+      {
+        "fragment": "F004",
+        "rotation": 270
+      },
+      {
+        "fragment": "F012",
+        "rotation": 270
+      },
+      {
+        "fragment": "F020",
+        "rotation": 270
+      },
+      {
+        "fragment": "F028",
+        "rotation": 270
+      },
+      {
+        "fragment": "F013",
+        "rotation": 0
+      },
+      {
+        "fragment": "F036",
+        "rotation": 90
+      }
+    ],
+    [
+      {
+        "fragment": "F055",
+        "rotation": 0
+      },
+      {
+        "fragment": "F027",
+        "rotation": 0
+      },
+      {
+        "fragment": "F042",
+        "rotation": 90
+      },
+      {
+        "fragment": "F019",
+        "rotation": 90
+      },
+      {
+        "fragment": "F053",
+        "rotation": 270
+      },
+      {
+        "fragment": "F037",
+        "rotation": 0
+      },
+      {
+        "fragment": "F046",
+        "rotation": 0
+      },
+      {
+        "fragment": "F038",
+        "rotation": 180
+      }
+    ],
+    [
+      {
+        "fragment": "F023",
+        "rotation": 0
+      },
+      {
+        "fragment": "F001",
+        "rotation": 270
+      },
+      {
+        "fragment": "F015",
+        "rotation": 180
+      },
+      {
+        "fragment": "F058",
+        "rotation": 270
+      },
+      {
+        "fragment": "F029",
+        "rotation": 180
+      },
+      {
+        "fragment": "F051",
+        "rotation": 270
+      },
+      {
+        "fragment": "F052",
+        "rotation": 90
+      },
+      {
+        "fragment": "F021",
+        "rotation": 0
+      }
+    ]
+  ],
+  "output": "D:\\Project-Files\\Web Development Projects\\ReFrag AI\\refrag-ai\\ml\\image_recovery\\test\\output\\reconstructed_fast.png"
+}

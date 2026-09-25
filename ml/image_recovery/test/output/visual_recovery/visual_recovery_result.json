@@ -1,0 +1,67 @@
+{
+  "input": {
+    "filename": "001_broken.jpg"
+  },
+  "reference_match": {
+    "reference_id": "001",
+    "reference_filename": "001_clean.jpg",
+    "similarity": 0.9854,
+    "similarity_percent": 98.54
+  },
+  "top_matches": [
+    {
+      "id": "001",
+      "filename": "001_clean.jpg",
+      "similarity": 0.9853545427322388
+    },
+    {
+      "id": "086",
+      "filename": "086_clean.jpg",
+      "similarity": 0.886944055557251
+    },
+    {
+      "id": "058",
+      "filename": "058_clean.jpg",
+      "similarity": 0.8836967349052429
+    },
+    {
+      "id": "061",
+      "filename": "061_clean.jpg",
+      "similarity": 0.8833363056182861
+    },
+    {
+      "id": "077",
+      "filename": "077_clean.jpg",
+      "similarity": 0.8829467296600342
+    }
+  ],
+  "damage_analysis": {
+    "total_pixels": 307200,
+    "preserved_pixels": 297970,
+    "damaged_pixels": 9230,
+    "recovered_percent": 97.0,
+    "damaged_percent": 3.0,
+    "damage_regions": 1,
+    "regions": [
+      {
+        "region_id": 1,
+        "x": 30,
+        "y": 194,
+        "width": 130,
+        "height": 71,
+        "area_pixels": 9230,
+        "area_percent": 3.005
+      }
+    ]
+  },
+  "evidence": {
+    "preserved_content": "DIRECT_INPUT_EVIDENCE",
+    "damaged_content": "DIFFERENCE_FROM_REFERENCE",
+    "restored_content": "REFERENCE_ASSISTED"
+  },
+  "outputs": {
+    "damage_mask": "test\\output\\visual_recovery\\damage_mask.png",
+    "evidence_map": "test\\output\\visual_recovery\\evidence_map.png",
+    "restored_image": "test\\output\\visual_recovery\\restored_image.png"
+  }
+}
