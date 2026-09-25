@@ -1,6 +1,5 @@
 import {
   FileImage,
-  ShieldCheck,
   BrainCircuit,
   Link2,
   AlertTriangle,

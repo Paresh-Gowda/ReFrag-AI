@@ -1,0 +1,71 @@
+{
+  "model_name": "ReFrag Fragment Relationship Classifier",
+  "algorithm": "RandomForestClassifier",
+  "n_estimators": 140,
+  "features": [
+    "same_file_type",
+    "seam_byte_diff",
+    "seam_avg_diff_4",
+    "seam_avg_diff_16",
+    "seam_both_null",
+    "seam_both_printable",
+    "seam_identical",
+    "bfa_cosine_sim",
+    "bfa_euclidean_dist",
+    "bfa_manhattan_dist",
+    "bfa_correlation",
+    "diff_entropy",
+    "avg_entropy",
+    "diff_mean",
+    "diff_std",
+    "diff_variance",
+    "diff_printable",
+    "diff_null",
+    "diff_high_byte",
+    "diff_control",
+    "diff_max_consecutive",
+    "is_header_a",
+    "is_footer_b",
+    "has_magic_header_a",
+    "has_magic_footer_b",
+    "invalid_boundary"
+  ],
+  "metrics": {
+    "accuracy": 0.9316,
+    "roc_auc": 0.9162,
+    "precision": 0.9399,
+    "recall": 0.9775,
+    "f1_score": 0.9583
+  },
+  "feature_importances_top15": {
+    "same_file_type": 0.12205,
+    "bfa_manhattan_dist": 0.10071,
+    "bfa_euclidean_dist": 0.09017,
+    "bfa_correlation": 0.06909,
+    "bfa_cosine_sim": 0.06683,
+    "diff_mean": 0.05959,
+    "diff_std": 0.05895,
+    "diff_variance": 0.05778,
+    "avg_entropy": 0.05289,
+    "invalid_boundary": 0.04544,
+    "diff_entropy": 0.0426,
+    "seam_avg_diff_16": 0.0419,
+    "seam_avg_diff_4": 0.03827,
+    "seam_byte_diff": 0.03278,
+    "diff_high_byte": 0.02888
+  },
+  "confusion_matrix": [
+    [
+      72,
+      25
+    ],
+    [
+      9,
+      391
+    ]
+  ],
+  "train_pairs_count": 1911,
+  "test_pairs_count": 497,
+  "train_source_files_count": 93,
+  "test_source_files_count": 32
+}

@@ -11,8 +11,7 @@ The project follows a modular architecture so that the frontend can later commun
 ```text
 refrag-ai/
 │
-├── public/
-│   └── ...
+├── api/
 │
 ├── src/
 │   ├── ...

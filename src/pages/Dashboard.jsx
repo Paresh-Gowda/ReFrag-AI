@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import {
   Database,
   FileSearch,
@@ -7,8 +8,11 @@ import {
 } from "lucide-react";
 
 import StatCard from "../components/StatCard";
+import RecoveryTable from "../components/RecoveryTable";
 
 function Dashboard() {
+  const navigate = useNavigate();
+
   return (
     <section className="dashboard">
 
@@ -34,7 +38,7 @@ function Dashboard() {
           </p>
         </div>
 
-        <button className="scan-button">
+        <button className="scan-button" onClick={() => navigate("/scan")}>
           <Activity size={18} />
           Start New Scan
         </button>
@@ -178,60 +182,13 @@ function Dashboard() {
           <h2>Recent artifacts</h2>
         </div>
 
-        <button className="text-button">
+        <button className="text-button" onClick={() => navigate("/evidence")}>
           View all →
         </button>
 
       </div>
 
-
-      <div className="evidence-table">
-
-        <div className="table-header">
-          <span>Artifact</span>
-          <span>Type</span>
-          <span>Integrity</span>
-          <span>Confidence</span>
-          <span>Status</span>
-        </div>
-
-        <div className="table-row">
-          <span className="artifact-name">
-            IMG_2048.jpg
-          </span>
-          <span>JPEG</span>
-          <span>92%</span>
-          <span>95%</span>
-          <span className="status recovered">
-            Reconstructed
-          </span>
-        </div>
-
-        <div className="table-row">
-          <span className="artifact-name">
-            financial_report.pdf
-          </span>
-          <span>PDF</span>
-          <span>78%</span>
-          <span>88%</span>
-          <span className="status partial">
-            Partial
-          </span>
-        </div>
-
-        <div className="table-row">
-          <span className="artifact-name">
-            archive_07.zip
-          </span>
-          <span>ZIP</span>
-          <span>96%</span>
-          <span>97%</span>
-          <span className="status recovered">
-            Reconstructed
-          </span>
-        </div>
-
-      </div>
+      <RecoveryTable />
 
     </section>
   );

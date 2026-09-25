@@ -28,3 +28,17 @@ Thumbs.db
 
 # Local development
 *.local
+
+# ML generated data
+ml/data/raw/*
+ml/data/fragments/*
+ml/features/extracted_features.csv
+
+# Trained models
+ml/saved/*.joblib
+
+# Keep folder structure
+!ml/data/raw/**/.gitkeep
+!ml/data/raw/.gitkeep
+!ml/data/fragments/.gitkeep
+!ml/saved/.gitkeep
