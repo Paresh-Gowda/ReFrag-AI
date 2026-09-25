@@ -1,95 +1,67 @@
-import {
-  LayoutDashboard,
-  ScanSearch,
-  Database,
-  ShieldCheck,
-  BarChart3,
-  Settings,
-  CircleHelp,
-} from "lucide-react";
+import { useLocation } from "react-router-dom";
+import { Search, Bell, ShieldCheck, HelpCircle } from "lucide-react";
 
-const menuItems = [
-  {
-    label: "Dashboard",
-    icon: LayoutDashboard,
-    active: true,
+const routeMeta = {
+  "/": {
+    badge: "FORENSIC WORKSPACE",
+    title: "Operational Dashboard",
   },
-  {
-    label: "Scan Data",
-    icon: ScanSearch,
+  "/scan": {
+    badge: "STORAGE ACQUISITION",
+    title: "Scan & Detection Engine",
   },
-  {
-    label: "Fragments",
-    icon: Database,
+  "/fragments": {
+    badge: "INTELLIGENCE GRAPH",
+    title: "Fragment Relationship Analysis",
   },
-  {
-    label: "Evidence",
-    icon: ShieldCheck,
+  "/evidence": {
+    badge: "ARTIFACT INSPECTOR",
+    title: "Digital Evidence Vault",
   },
-  {
-    label: "Analytics",
-    icon: BarChart3,
+  "/analytics": {
+    badge: "TELEMETRY & METRICS",
+    title: "Recovery Analytics",
   },
-];
+};
 
-function Sidebar() {
+function Topbar() {
+  const location = useLocation();
+  const meta = routeMeta[location.pathname] || {
+    badge: "SECURE ENVIRONMENT",
+    title: "ReFrag Forensic System",
+  };
+
   return (
-    <aside className="sidebar">
-
-      <div className="brand">
-        <div className="brand-mark">R</div>
-
-        <div>
-          <h1>ReFrag<span> AI</span></h1>
-          <p>DATA RECOVERY</p>
-        </div>
+    <header className="topbar">
+      <div className="topbar-title">
+        <p>{meta.badge}</p>
+        <h2>{meta.title}</h2>
       </div>
 
-      <nav className="sidebar-nav">
+      <div className="topbar-actions">
+        <div className="search-box">
+          <Search size={14} />
+          <input
+            type="text"
+            placeholder="Search artifacts, hashes, fragments..."
+          />
+        </div>
 
-        <p className="nav-label">WORKSPACE</p>
-
-        {menuItems.map((item) => {
-          const Icon = item.icon;
-
-          return (
-            <button
-              key={item.label}
-              className={`nav-item ${item.active ? "active" : ""}`}
-            >
-              <Icon size={19} />
-              <span>{item.label}</span>
-            </button>
-          );
-        })}
-
-        <div className="nav-divider" />
-
-        <p className="nav-label">SYSTEM</p>
-
-        <button className="nav-item">
-          <Settings size={19} />
-          <span>Settings</span>
+        <button className="icon-button" title="System Notifications" type="button">
+          <Bell size={16} />
         </button>
 
-        <button className="nav-item">
-          <CircleHelp size={19} />
-          <span>Documentation</span>
+        <button className="icon-button" title="Documentation & Help" type="button">
+          <HelpCircle size={16} />
         </button>
 
-      </nav>
-
-      <div className="system-status">
-        <div className="status-dot" />
-
-        <div>
-          <strong>System Online</strong>
-          <span>Local forensic engine</span>
+        <div className="security-badge" title="Memory Isolation & Integrity Active">
+          <ShieldCheck size={14} />
+          <span>Isolated Forensic Session</span>
         </div>
       </div>
-
-    </aside>
+    </header>
   );
 }
 
-export default Sidebar;
+export default Topbar;

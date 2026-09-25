@@ -3,8 +3,6 @@ import {
   BrainCircuit,
   Link2,
   FileImage,
-  FileText,
-  Archive,
   CheckCircle2,
   AlertTriangle,
 } from "lucide-react";
