@@ -1,197 +1,221 @@
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
 import {
   Database,
-  FileSearch,
-  CheckCircle2,
+  ShieldCheck,
   AlertTriangle,
+  FileSearch,
   Activity,
 } from "lucide-react";
 
-import StatCard from "../components/StatCard";
-import RecoveryTable from "../components/RecoveryTable";
+import { getDashboard } from "../services/api";
+
+import "../styles/dashboard.css";
+
 
 function Dashboard() {
-  const navigate = useNavigate();
+  const [stats, setStats] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+
+  useEffect(() => {
+    async function loadDashboard() {
+      try {
+        const data = await getDashboard();
+
+        setStats(data.statistics);
+      } catch (err) {
+        console.error(err);
+
+        setError(
+          "Unable to connect to ReFrag AI backend."
+        );
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadDashboard();
+  }, []);
+
+
+  if (loading) {
+    return (
+      <div className="dashboard-page">
+        <div className="dashboard-loading">
+          Loading ReFrag AI intelligence...
+        </div>
+      </div>
+    );
+  }
+
+
+  if (error) {
+    return (
+      <div className="dashboard-page">
+        <div className="dashboard-error">
+          <AlertTriangle size={22} />
+          <span>{error}</span>
+        </div>
+      </div>
+    );
+  }
+
+
+  const cards = [
+    {
+      title: "Fragments Scanned",
+      value: stats.total_fragments,
+      icon: Database,
+      description: "Detected storage fragments",
+    },
+    {
+      title: "Reconstruction Candidates",
+      value: stats.reconstruction_candidates,
+      icon: FileSearch,
+      description: "Potentially recoverable files",
+    },
+    {
+      title: "Valid Evidence",
+      value: stats.valid_evidence,
+      icon: ShieldCheck,
+      description: "Passed integrity validation",
+    },
+    {
+      title: "Corrupted Evidence",
+      value: stats.corrupted_evidence,
+      icon: AlertTriangle,
+      description: "Requires further analysis",
+    },
+  ];
+
 
   return (
-    <section className="dashboard">
+    <div className="dashboard-page">
 
-      {/* HERO */}
-
-      <div className="dashboard-hero">
+      <div className="dashboard-header">
 
         <div>
           <p className="eyebrow">
-            AI-ASSISTED DIGITAL FORENSICS
+            REFRAG AI
           </p>
 
           <h1>
-            Recover what remains.
-            <br />
-            <span>Understand what was lost.</span>
+            Evidence Recovery Dashboard
           </h1>
 
-          <p className="hero-description">
-            ReFrag AI analyzes fragmented and corrupted
-            digital data, reconstructs recoverable artifacts,
-            and evaluates their integrity and confidence.
+          <p>
+            AI-assisted reconstruction and
+            digital evidence analysis.
           </p>
         </div>
 
-        <button className="scan-button" onClick={() => navigate("/scan")}>
-          <Activity size={18} />
-          Start New Scan
-        </button>
-
-      </div>
-
-
-      {/* STATS */}
-
-      <div className="stats-grid">
-
-        <StatCard
-          title="Fragments Detected"
-          value="12,482"
-          description="Raw fragments discovered"
-          icon={Database}
-        />
-
-        <StatCard
-          title="File Candidates"
-          value="1,823"
-          description="Potential recoverable files"
-          icon={FileSearch}
-        />
-
-        <StatCard
-          title="Successfully Reconstructed"
-          value="1,146"
-          description="Validated artifacts"
-          icon={CheckCircle2}
-        />
-
-        <StatCard
-          title="Partial / Corrupted"
-          value="421"
-          description="Requires further analysis"
-          icon={AlertTriangle}
-        />
-
-      </div>
-
-
-      {/* ANALYSIS AREA */}
-
-      <div className="section-header">
-        <div>
-          <p className="eyebrow">RECOVERY ANALYSIS</p>
-          <h2>Current scan overview</h2>
+        <div className="system-status">
+          <Activity size={16} />
+          SYSTEM ONLINE
         </div>
 
-        <span className="scan-status">
-          <span />
-          Scan Active
-        </span>
       </div>
 
 
-      <div className="analysis-grid">
+      <div className="dashboard-stats">
 
-        <div className="analysis-card chart-placeholder">
+        {cards.map((card) => {
 
-          <div className="card-header">
-            <div>
-              <h3>Recovery Pipeline</h3>
-              <p>Fragment processing status</p>
+          const Icon = card.icon;
+
+          return (
+            <div
+              className="stat-card"
+              key={card.title}
+            >
+
+              <div className="stat-card-top">
+
+                <div className="stat-icon">
+                  <Icon size={20} />
+                </div>
+
+              </div>
+
+              <div className="stat-value">
+                {card.value}
+              </div>
+
+              <div className="stat-title">
+                {card.title}
+              </div>
+
+              <div className="stat-description">
+                {card.description}
+              </div>
+
             </div>
-          </div>
+          );
 
-          <div className="pipeline">
+        })}
 
-            <div className="pipeline-step completed">
-              <strong>12,482</strong>
-              <span>Fragments</span>
-            </div>
+      </div>
 
-            <div className="pipeline-line" />
 
-            <div className="pipeline-step completed">
-              <strong>1,823</strong>
-              <span>File Candidates</span>
-            </div>
+      <div className="priority-overview">
 
-            <div className="pipeline-line" />
+        <div className="section-heading">
 
-            <div className="pipeline-step active">
-              <strong>1,146</strong>
-              <span>Reconstructed</span>
-            </div>
+          <div>
+            <p className="eyebrow">
+              AI PRIORITIZATION
+            </p>
 
-            <div className="pipeline-line" />
-
-            <div className="pipeline-step">
-              <strong>86%</strong>
-              <span>Validated</span>
-            </div>
-
+            <h2>
+              Evidence Priority
+            </h2>
           </div>
 
         </div>
 
 
-        <div className="analysis-card">
+        <div className="priority-grid">
 
-          <div className="card-header">
-            <div>
-              <h3>Integrity Distribution</h3>
-              <p>Recovered artifact condition</p>
-            </div>
+          <div className="priority-card high">
+            <span>HIGH</span>
+            <strong>
+              {stats.high_priority}
+            </strong>
+            <small>
+              Priority evidence
+            </small>
           </div>
 
-          <div className="integrity-list">
 
-            <div>
-              <span>High Integrity</span>
-              <strong>68%</strong>
-            </div>
+          <div className="priority-card medium">
+            <span>MEDIUM</span>
+            <strong>
+              {stats.medium_priority}
+            </strong>
+            <small>
+              Requires review
+            </small>
+          </div>
 
-            <div>
-              <span>Partial Recovery</span>
-              <strong>24%</strong>
-            </div>
 
-            <div>
-              <span>Corrupted</span>
-              <strong>8%</strong>
-            </div>
-
+          <div className="priority-card low">
+            <span>LOW</span>
+            <strong>
+              {stats.low_priority}
+            </strong>
+            <small>
+              Lower confidence
+            </small>
           </div>
 
         </div>
 
       </div>
 
-
-      {/* RECENT EVIDENCE */}
-
-      <div className="section-header evidence-heading">
-
-        <div>
-          <p className="eyebrow">RECOVERED EVIDENCE</p>
-          <h2>Recent artifacts</h2>
-        </div>
-
-        <button className="text-button" onClick={() => navigate("/evidence")}>
-          View all →
-        </button>
-
-      </div>
-
-      <RecoveryTable />
-
-    </section>
+    </div>
   );
 }
+
 
 export default Dashboard;
