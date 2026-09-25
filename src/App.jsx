@@ -8,6 +8,8 @@ import ScanData from "./pages/ScanData";
 import Fragments from "./pages/Fragments";
 import Evidence from "./pages/Evidence";
 import Analytics from "./pages/Analytics";
+import Settings from "./pages/Settings";
+import Documentation from "./pages/Documentation";
 
 import "./App.css";
 
@@ -30,6 +32,10 @@ function App() {
             <Route path="/evidence" element={<Evidence />} />
 
             <Route path="/analytics" element={<Analytics />} />
+
+            <Route path="/settings" element={<Settings />} />
+            
+            <Route path="/documentation" element={<Documentation />} />
           </Routes>
         </main>
       </div>

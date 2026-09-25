@@ -41,31 +41,22 @@ const menuItems = [
 function Sidebar() {
   return (
     <aside className="sidebar">
-
       {/* BRAND */}
       <div className="brand">
-        <div className="brand-mark">
-          R
-        </div>
+        <div className="brand-mark">R</div>
 
         <div>
           <h1>
             ReFrag<span> AI</span>
           </h1>
 
-          <p>
-            DATA RECOVERY
-          </p>
+          <p>DATA RECOVERY</p>
         </div>
       </div>
 
-
       {/* NAVIGATION */}
       <nav className="sidebar-nav">
-
-        <p className="nav-label">
-          WORKSPACE
-        </p>
+        <p className="nav-label">WORKSPACE // FORENSICS</p>
 
         {menuItems.map((item) => {
           const Icon = item.icon;
@@ -80,57 +71,42 @@ function Sidebar() {
             >
               <Icon size={19} />
 
-              <span>
-                {item.label}
-              </span>
+              <span>{item.label}</span>
             </NavLink>
           );
         })}
 
-
         <div className="nav-divider" />
 
+        <p className="nav-label">SYSTEM // CONTROL</p>
 
-        <p className="nav-label">
-          SYSTEM
-        </p>
-
-        <button className="nav-item">
+        <NavLink
+          to="/settings"
+          className={({ isActive }) => `nav-item ${isActive ? "active" : ""}`}
+        >
           <Settings size={19} />
+          <span>Settings</span>
+        </NavLink>
 
-          <span>
-            Settings
-          </span>
-        </button>
-
-        <button className="nav-item">
+        <NavLink
+          to="/documentation"
+          className={({ isActive }) => `nav-item ${isActive ? "active" : ""}`}
+        >
           <CircleHelp size={19} />
-
-          <span>
-            Documentation
-          </span>
-        </button>
-
+          <span>Documentation</span>
+        </NavLink>
       </nav>
-
 
       {/* STATUS */}
       <div className="system-status">
-
         <div className="status-dot" />
 
         <div>
-          <strong>
-            System Online
-          </strong>
+          <strong>System Online</strong>
 
-          <span>
-            Local forensic engine
-          </span>
+          <span>Local forensic engine</span>
         </div>
-
       </div>
-
     </aside>
   );
 }

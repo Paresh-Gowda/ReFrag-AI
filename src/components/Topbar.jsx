@@ -32,36 +32,47 @@ function Topbar() {
   };
 
   return (
-    <header className="topbar">
-      <div className="topbar-title">
-        <p>{meta.badge}</p>
-        <h2>{meta.title}</h2>
+  <header className="topbar">
+    <div className="topbar-title">
+      <p>{meta.badge} // REFRACTION CORE</p>
+      <h2>{meta.title}</h2>
+    </div>
+
+    <div className="topbar-actions">
+      <div className="search-box">
+        <Search size={14} />
+        <input
+          type="text"
+          placeholder="Search artifacts, hashes, fragments..."
+        />
       </div>
 
-      <div className="topbar-actions">
-        <div className="search-box">
-          <Search size={14} />
-          <input
-            type="text"
-            placeholder="Search artifacts, hashes, fragments..."
-          />
-        </div>
+      <button
+        className="icon-button"
+        title="System Notifications"
+        type="button"
+      >
+        <Bell size={16} />
+      </button>
 
-        <button className="icon-button" title="System Notifications" type="button">
-          <Bell size={16} />
-        </button>
+      <button
+        className="icon-button"
+        title="Documentation & Help"
+        type="button"
+      >
+        <HelpCircle size={16} />
+      </button>
 
-        <button className="icon-button" title="Documentation & Help" type="button">
-          <HelpCircle size={16} />
-        </button>
-
-        <div className="security-badge" title="Memory Isolation & Integrity Active">
-          <ShieldCheck size={14} />
-          <span>Isolated Forensic Session</span>
-        </div>
+      <div
+        className="security-badge"
+        title="Memory Isolation & Integrity Active"
+      >
+        <ShieldCheck size={14} />
+        <span>FORENSIC SESSION SECURE</span>
       </div>
-    </header>
-  );
+    </div>
+  </header>
+);
 }
 
 export default Topbar;
