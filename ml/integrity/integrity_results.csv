@@ -1,0 +1,130 @@
+file,file_type,size,status,integrity_score,message
+reconstructed_001.bin,pdf,88662,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_002.bin,png,29493,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_003.bin,unknown,42836,CORRUPTED,0.0,Unknown file signature
+reconstructed_004.bin,unknown,32266,CORRUPTED,0.0,Unknown file signature
+reconstructed_005.bin,unknown,28717,CORRUPTED,0.0,Unknown file signature
+reconstructed_006.bin,unknown,73618,CORRUPTED,0.0,Unknown file signature
+reconstructed_007.bin,pdf,51646,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_008.bin,png,54117,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_009.bin,pdf,89320,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_010.bin,unknown,78780,CORRUPTED,0.0,Unknown file signature
+reconstructed_011.bin,unknown,131343,CORRUPTED,0.0,Unknown file signature
+reconstructed_012.bin,unknown,72030,CORRUPTED,0.0,Unknown file signature
+reconstructed_013.bin,unknown,32731,CORRUPTED,0.0,Unknown file signature
+reconstructed_014.bin,pdf,32596,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_015.bin,unknown,55662,CORRUPTED,0.0,Unknown file signature
+reconstructed_016.bin,pdf,46487,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_017.bin,pdf,102400,PARTIAL,0.5,PDF EOF marker missing
+reconstructed_018.bin,unknown,67964,CORRUPTED,0.0,Unknown file signature
+reconstructed_019.bin,pdf,112365,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_020.bin,pdf,79985,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_021.bin,png,47058,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_022.bin,pdf,122605,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_023.bin,zip,56472,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_024.bin,unknown,45677,CORRUPTED,0.0,Unknown file signature
+reconstructed_025.bin,unknown,7210,CORRUPTED,0.0,Unknown file signature
+reconstructed_026.bin,pdf,31496,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_027.bin,zip,21532,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_028.bin,unknown,62248,CORRUPTED,0.0,Unknown file signature
+reconstructed_029.bin,pdf,143334,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_030.bin,pdf,161801,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_031.bin,unknown,42521,CORRUPTED,0.0,Unknown file signature
+reconstructed_032.bin,unknown,110574,CORRUPTED,0.0,Unknown file signature
+reconstructed_033.bin,jpeg,15779,VALID,1.0,Valid JPEG header and end marker
+reconstructed_034.bin,jpeg,36357,VALID,1.0,Valid JPEG header and end marker
+reconstructed_035.bin,unknown,36953,CORRUPTED,0.0,Unknown file signature
+reconstructed_036.bin,png,20026,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_037.bin,zip,30962,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_038.bin,pdf,8192,PARTIAL,0.5,PDF EOF marker missing
+reconstructed_039.bin,jpeg,29611,VALID,1.0,Valid JPEG header and end marker
+reconstructed_040.bin,pdf,49152,PARTIAL,0.5,PDF EOF marker missing
+reconstructed_041.bin,unknown,59747,CORRUPTED,0.0,Unknown file signature
+reconstructed_042.bin,png,27531,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_043.bin,jpeg,20298,VALID,1.0,Valid JPEG header and end marker
+reconstructed_044.bin,pdf,86999,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_045.bin,unknown,46934,CORRUPTED,0.0,Unknown file signature
+reconstructed_046.bin,pdf,138476,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_047.bin,pdf,45056,PARTIAL,0.5,PDF EOF marker missing
+reconstructed_048.bin,png,48725,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_049.bin,pdf,33906,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_050.bin,unknown,29610,CORRUPTED,0.0,Unknown file signature
+reconstructed_051.bin,png,40960,PARTIAL,0.5,PNG IEND chunk missing
+reconstructed_052.bin,png,22419,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_053.bin,pdf,139264,PARTIAL,0.5,PDF EOF marker missing
+reconstructed_054.bin,unknown,72173,CORRUPTED,0.0,Unknown file signature
+reconstructed_055.bin,pdf,139264,PARTIAL,0.5,PDF EOF marker missing
+reconstructed_056.bin,pdf,122734,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_057.bin,png,33438,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_058.bin,unknown,21394,CORRUPTED,0.0,Unknown file signature
+reconstructed_059.bin,pdf,84735,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_060.bin,zip,27001,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_061.bin,jpeg,56813,VALID,1.0,Valid JPEG header and end marker
+reconstructed_062.bin,zip,74125,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_063.bin,pdf,138828,VALID,1.0,Valid PDF header and EOF marker
+reconstructed_064.bin,jpeg,29369,VALID,1.0,Valid JPEG header and end marker
+reconstructed_065.bin,png,29934,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_066.bin,zip,55777,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_067.bin,png,17091,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_068.bin,jpeg,16581,VALID,1.0,Valid JPEG header and end marker
+reconstructed_069.bin,png,23924,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_070.bin,unknown,17467,CORRUPTED,0.0,Unknown file signature
+reconstructed_071.bin,jpeg,31738,VALID,1.0,Valid JPEG header and end marker
+reconstructed_072.bin,jpeg,36050,VALID,1.0,Valid JPEG header and end marker
+reconstructed_073.bin,zip,58209,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_074.bin,unknown,16175,CORRUPTED,0.0,Unknown file signature
+reconstructed_075.bin,zip,40305,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_076.bin,png,22343,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_077.bin,unknown,35561,CORRUPTED,0.0,Unknown file signature
+reconstructed_078.bin,zip,66232,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_079.bin,jpeg,39951,VALID,1.0,Valid JPEG header and end marker
+reconstructed_080.bin,jpeg,16384,PARTIAL,0.5,JPEG end marker missing
+reconstructed_081.bin,jpeg,8192,PARTIAL,0.5,JPEG end marker missing
+reconstructed_082.bin,jpeg,14107,VALID,1.0,Valid JPEG header and end marker
+reconstructed_083.bin,png,30390,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_084.bin,pdf,77824,PARTIAL,0.5,PDF EOF marker missing
+reconstructed_085.bin,zip,29405,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_086.bin,unknown,38133,CORRUPTED,0.0,Unknown file signature
+reconstructed_087.bin,png,47706,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_088.bin,zip,27579,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_089.bin,png,54174,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_090.bin,unknown,27311,CORRUPTED,0.0,Unknown file signature
+reconstructed_091.bin,zip,53073,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_092.bin,jpeg,58417,VALID,1.0,Valid JPEG header and end marker
+reconstructed_093.bin,jpeg,31093,VALID,1.0,Valid JPEG header and end marker
+reconstructed_094.bin,pdf,86016,PARTIAL,0.5,PDF EOF marker missing
+reconstructed_095.bin,zip,53428,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_096.bin,zip,37637,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_097.bin,zip,51583,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_098.bin,png,47652,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_099.bin,unknown,62173,CORRUPTED,0.0,Unknown file signature
+reconstructed_100.bin,zip,32680,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_101.bin,png,41410,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_102.bin,png,26109,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_103.bin,jpeg,43758,VALID,1.0,Valid JPEG header and end marker
+reconstructed_104.bin,png,33597,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_105.bin,jpeg,54583,VALID,1.0,Valid JPEG header and end marker
+reconstructed_106.bin,jpeg,45266,VALID,1.0,Valid JPEG header and end marker
+reconstructed_107.bin,zip,32609,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_108.bin,png,21324,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_109.bin,jpeg,25663,VALID,1.0,Valid JPEG header and end marker
+reconstructed_110.bin,png,53649,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_111.bin,jpeg,29634,VALID,1.0,Valid JPEG header and end marker
+reconstructed_112.bin,zip,46001,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_113.bin,jpeg,32343,VALID,1.0,Valid JPEG header and end marker
+reconstructed_114.bin,zip,35574,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_115.bin,zip,21220,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_116.bin,zip,39576,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_117.bin,zip,20094,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_118.bin,png,18978,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_119.bin,unknown,113796,CORRUPTED,0.0,Unknown file signature
+reconstructed_120.bin,unknown,35684,CORRUPTED,0.0,Unknown file signature
+reconstructed_121.bin,zip,37980,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_122.bin,jpeg,49610,VALID,1.0,Valid JPEG header and end marker
+reconstructed_123.bin,jpeg,50406,VALID,1.0,Valid JPEG header and end marker
+reconstructed_124.bin,zip,8192,PARTIAL,0.5,ZIP end/central-directory marker missing
+reconstructed_125.bin,jpeg,43185,VALID,1.0,Valid JPEG header and end marker
+reconstructed_126.bin,png,38206,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_127.bin,zip,54399,VALID,1.0,ZIP signature and archive structure detected
+reconstructed_128.bin,png,48916,VALID,1.0,Valid PNG signature and IEND marker
+reconstructed_129.bin,jpeg,24352,VALID,1.0,Valid JPEG header and end marker
