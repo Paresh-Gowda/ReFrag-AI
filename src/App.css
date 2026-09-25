@@ -1008,8 +1008,243 @@ img {
   color: #4ade80;
 }
 
+/* EXTENDED UPLOAD & INGESTION STYLES */
+.upload-button-group {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.upload-button-secondary {
+  background: #151923;
+  color: #aeb7c6;
+  border: 1px solid #283040;
+  padding: 11px 17px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.upload-button-secondary:hover {
+  background: #1e2433;
+  color: #ffffff;
+  border-color: #3b465c;
+  transform: translateY(-1px);
+}
+
+.dataset-summary-card {
+  margin-top: 20px;
+  width: min(650px, 100%);
+  padding: 18px;
+  border: 1px solid #202631;
+  border-radius: 12px;
+  background: #0d1017;
+  text-align: left;
+}
+
+.dataset-summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #1a202c;
+  margin-bottom: 12px;
+}
+
+.dataset-summary-header h4 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.dataset-summary-header span {
+  font-size: 11px;
+  color: #828e9e;
+}
+
+.file-list-preview {
+  max-height: 180px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.file-item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #121621;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  border: 1px solid #1c2230;
+}
+
+.file-item-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-item-path {
+  color: #c5ceec;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+  color: #6c788a;
+  flex-shrink: 0;
+}
+
+.confirm-upload-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #7c5cff, #4f8cff);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: 0.2s ease;
+  box-shadow: 0 4px 20px rgba(124, 92, 255, 0.25);
+}
+
+.confirm-upload-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.confirm-upload-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.ingestion-success-box {
+  margin-top: 20px;
+  width: min(650px, 100%);
+  padding: 20px;
+  border: 1px solid #22382e;
+  border-radius: 12px;
+  background: rgba(16, 37, 27, 0.6);
+  text-align: left;
+}
+
+.ingestion-success-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #4ade80;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+
+.ingestion-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  background: rgba(10, 20, 15, 0.8);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #1c3327;
+  margin-bottom: 14px;
+}
+
+.ingestion-meta-item label {
+  font-size: 9px;
+  color: #6b8a78;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  display: block;
+}
+
+.ingestion-meta-item span {
+  font-size: 13px;
+  font-weight: 700;
+  color: #e2f5ec;
+}
+
+.case-id-badge {
+  font-family: monospace;
+  color: #60a5fa !important;
+}
+
+.artifacts-scroll-list {
+  max-height: 160px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.artifact-row-ingested {
+  font-size: 10px;
+  background: #0f1d17;
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #162b21;
+}
+
+.artifact-row-ingested .hash {
+  font-family: monospace;
+  color: #94a3b8;
+  font-size: 9px;
+}
+
+.duplicate-tag {
+  background: rgba(234, 179, 8, 0.15);
+  color: #facc15;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.ingestion-error-alert {
+  margin-top: 16px;
+  width: min(650px, 100%);
+  padding: 12px 16px;
+  border: 1px solid #4a1d1d;
+  background: rgba(45, 16, 16, 0.8);
+  color: #f87171;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  text-align: left;
+}
 
 /* SCAN PIPELINE */
+
 
 .scan-section {
   margin-top: 45px;
