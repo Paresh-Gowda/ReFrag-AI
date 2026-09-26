@@ -1,0 +1,378 @@
+/* =========================================================
+   DOCUMENTATION
+========================================================= */
+
+.documentation-page {
+  padding: 42px;
+  min-height: calc(100vh - 78px);
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.documentation-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.documentation-hero h1 {
+  margin: 7px 0 10px;
+  font-size: 34px;
+  letter-spacing: -1px;
+}
+
+.documentation-hero p:not(.eyebrow) {
+  margin: 0;
+  color: #707b8d;
+  font-size: 13px;
+}
+
+.docs-badge {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 12px 15px;
+  border: 1px solid rgba(90, 218, 255, 0.14);
+  background: rgba(8, 18, 28, 0.8);
+  border-radius: 9px;
+  color: #63dfff;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 9px;
+  letter-spacing: 1px;
+}
+
+
+/* =========================================================
+   PIPELINE
+========================================================= */
+
+.docs-overview {
+  padding: 22px;
+  border: 1px solid #172536;
+  border-radius: 14px;
+  background:
+    linear-gradient(
+      135deg,
+      rgba(9, 20, 31, 0.96),
+      rgba(7, 13, 22, 0.96)
+    );
+  margin-bottom: 45px;
+}
+
+.docs-overview-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 9px;
+}
+
+.docs-overview-label span {
+  color: #63dfff;
+}
+
+.docs-overview-label strong {
+  color: #4e5969;
+  letter-spacing: 1px;
+}
+
+.docs-pipeline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.docs-pipeline span {
+  padding: 11px 13px;
+  border-radius: 7px;
+  border: 1px solid #1a2b3b;
+  background: rgba(255,255,255,0.02);
+  color: #9aa6b7;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 9px;
+}
+
+.docs-pipeline b {
+  color: #3e8ea8;
+}
+
+
+/* =========================================================
+   SECTIONS
+========================================================= */
+
+.docs-section {
+  margin-bottom: 45px;
+}
+
+.docs-section-title {
+  margin-bottom: 17px;
+}
+
+.docs-section-title h2 {
+  margin: 5px 0 0;
+  font-size: 20px;
+}
+
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+.docs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 13px;
+}
+
+.docs-card {
+  min-height: 205px;
+  padding: 19px;
+  position: relative;
+  overflow: hidden;
+
+  border: 1px solid #172536;
+  border-radius: 12px;
+  background: rgba(9, 16, 26, 0.85);
+
+  transition: 0.2s ease;
+}
+
+.docs-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(72, 215, 255, 0.28);
+}
+
+.docs-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #57d8fb;
+}
+
+.docs-card-top span {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 9px;
+  color: #435366;
+}
+
+.docs-card h3 {
+  margin: 27px 0 10px;
+  font-size: 13px;
+}
+
+.docs-card p {
+  margin: 0;
+  color: #697486;
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.docs-card-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 35%;
+  height: 2px;
+  background: #46d5f8;
+  opacity: 0.6;
+}
+
+
+/* =========================================================
+   VISUAL FLOW
+========================================================= */
+
+.docs-visual-flow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+
+  border: 1px solid #172536;
+  border-radius: 12px;
+  background: rgba(9, 16, 26, 0.8);
+}
+
+.docs-visual-flow > div {
+  flex: 1;
+  padding: 17px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+  border-radius: 9px;
+  background: rgba(255,255,255,0.025);
+  border: 1px solid #182838;
+}
+
+.docs-visual-flow strong {
+  color: #4e687d;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 9px;
+}
+
+.docs-visual-flow span {
+  color: #d5dee9;
+  font-size: 11px;
+}
+
+.docs-visual-flow b {
+  color: #3b91aa;
+}
+
+
+/* =========================================================
+   EVIDENCE STATES
+========================================================= */
+
+.docs-evidence-model {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 22px;
+
+  border: 1px solid #172536;
+  border-radius: 12px;
+  background: rgba(9, 16, 26, 0.8);
+}
+
+.docs-evidence-model h2 {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
+
+.evidence-state {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+}
+
+.state-dot {
+  margin-top: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.state-dot.recovered {
+  background: #63e6a4;
+  box-shadow: 0 0 10px rgba(99, 230, 164, 0.6);
+}
+
+.state-dot.restored {
+  background: #63dfff;
+  box-shadow: 0 0 10px rgba(99, 223, 255, 0.5);
+}
+
+.state-dot.unknown {
+  background: #f4c76a;
+}
+
+.evidence-state strong {
+  font-size: 10px;
+}
+
+.evidence-state p {
+  margin: 5px 0 0;
+  color: #606b7b;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   LIMITATIONS
+========================================================= */
+
+.docs-limitations {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 18px;
+
+  border: 1px solid rgba(244, 199, 106, 0.13);
+  border-radius: 11px;
+  background: rgba(45, 34, 12, 0.22);
+
+  color: #d6b96d;
+}
+
+.docs-limitations strong {
+  font-size: 11px;
+}
+
+.docs-limitations p {
+  margin: 6px 0 0;
+  color: #776b50;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.docs-footer {
+  margin-top: 30px;
+  padding-top: 17px;
+  border-top: 1px solid #141e29;
+
+  color: #414d5d;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 9px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+  .docs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .docs-evidence-model {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .documentation-page {
+    padding: 25px;
+  }
+
+  .documentation-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .docs-pipeline {
+    flex-wrap: wrap;
+  }
+
+  .docs-visual-flow {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 550px) {
+  .docs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .docs-evidence-model {
+    grid-template-columns: 1fr;
+  }
+
+  .docs-visual-flow > div {
+    min-width: 100%;
+  }
+
+  .docs-visual-flow > b {
+    display: none;
+  }
+}
