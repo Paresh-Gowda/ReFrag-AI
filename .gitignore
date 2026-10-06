@@ -42,3 +42,7 @@ ml/saved/*.joblib
 !ml/data/raw/.gitkeep
 !ml/data/fragments/.gitkeep
 !ml/saved/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
