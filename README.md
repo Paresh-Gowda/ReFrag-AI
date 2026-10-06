@@ -1,6 +1,9 @@
 # AI-Assisted Intelligent Data Recovery and Digital Evidence Reconstruction
 
-## 🔗 Live Demo
+## Prototype 1
+[View Project](https://refrag-ai-paresh.vercel.app/)
+
+## Prototype 2
 [View Project](https://refrag-ai.vercel.app/)
 
 This project is a cybersecurity and AI-based digital evidence recovery platform designed to assist in identifying, reconstructing, classifying, and prioritizing recoverable information from damaged, deleted, fragmented, or partially corrupted storage data. The system goes beyond traditional file recovery by analyzing recovered fragments, identifying relationships between them, evaluating reconstruction possibilities, performing integrity analysis, and presenting meaningful recovery insights through an intuitive forensic dashboard.
@@ -12,10 +15,11 @@ The project follows a modular architecture connecting the frontend with a FastAP
 ## Project Structure
 
 ```text
-Refrag-ai/
+ReFrag-AI/
 │
-├── api/
-│   └── main.py
+├── backend/
+│   ├── main.py
+│   └── requirements.txt
 │
 ├── ml/
 │   ├── dataset/
@@ -25,7 +29,6 @@ Refrag-ai/
 │   ├── integrity/
 │   ├── prioritization/
 │   ├── saved/
-│   │
 │   └── image_recovery/
 │       ├── reference_database/
 │       ├── reference_matcher.py
@@ -44,8 +47,10 @@ Refrag-ai/
 ├── package.json
 ├── requirements.txt
 ├── vite.config.js
+├── vercel.json
 └── README.md
 ```
+
 ## Contributors
 - [Paresh R](https://github.com/Paresh-Gowda)
 - [Hitesh T G](https://github.com/hitesh0806)
